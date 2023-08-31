@@ -18,6 +18,6 @@ Your LST continues to accrue in value against ETH (generally between 3 and 8% AP
 
 ## Liquidation fees
 
-In order to reduce the volatility of GRAI, a Liquity-like redemption mechanism will be enabled after launch. Redemptions are made at a rate of 0.97 to 1 (the redeemer pays a 3% fee to the borrower).
+In order to reduce the volatility of GRAI, a Liquity-like redemption mechanism will be enabled after launch.&#x20;
 
-You can find more on the [Price Volatility and Peg page.](system-status-and-price-volatility.md)
+You can find more on the [System Status and Price Volatility page.](system-status-and-price-volatility.md)

@@ -12,13 +12,19 @@ It is important to note that bLUSD Vessels cannot be liquidated or redeemed agai
 
 ### What are redemptions?
 
-The redemption mechanism gives GRAI holders the ability to redeem GRAI for 0.98 USD worth of underlying collateral at any time. Redemptions are always honoured such that 1 GRAI equals $0.98 USD worth of collateral minus the current redemption fee.
+The redemption mechanism gives GRAI holders the ability to redeem GRAI for a certain amount of USD worth of underlying collateral at any time. \
+\
+The redemptions timeline is the following:\
+\
+\- Launch: Redemptions are disabled\
+\- 18th of July 2023: 0.98\
+\- 18th of August 2023: 0.99\
+\- 18th of September: 0.995\
+\- 18th of October: 1
 
-This means that there is a 2% fee in place for redemptions that is paid out to the borrower you are redeeming against, on top of a redemption fee that is paid out to the protocol. \
+This means that there is a 1-(current redemption parameter) fee in place for redemptions that is paid out to the borrower you are redeeming against, on top of a redemption fee that is paid out to the protocol. \
 \
 It will not initially possible to redeem collateral against other users through our web interface.
-
-The redemption parameter will change on the 18th of August 2023: it will then be possible to redeem GRAI for 0.99 USD worth of underlying collateral at any time.
 
 Only the riskiest Vessels are redeemed against: if you keep a low LTV, your risk of being redeemed against decreases. Once you open a Vessel, you can always see through our UI how much GRAI needs to be redeemed for your collateral to start being impacted, at the mention "Debt ahead".
 
