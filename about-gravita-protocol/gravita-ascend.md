@@ -18,8 +18,6 @@ _While we at Gravita Protocol have taken measures to provide you with an innovat
 
 _Always exercise caution, conduct your own due diligence, and prioritize your security when navigating the DeFi landscape._
 
-
-
 ***
 
 ## Gravita Ascend: Chapter 1
