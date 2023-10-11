@@ -18,6 +18,7 @@
 * [Smart Contracts](about-gravita-protocol/smart-contracts.md)
 * [Partnerships and Integrations](about-gravita-protocol/partnerships-and-integrations.md)
 * [Marketing Assets](about-gravita-protocol/marketing-assets.md)
+* [Gravita Ascend](about-gravita-protocol/gravita-ascend.md)
 
 ## Disclaimers
 
