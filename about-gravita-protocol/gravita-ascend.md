@@ -50,9 +50,7 @@ Apart from the primary tasks, there are more avenues to explore:
 
 **3. 🛰️ Honours (Pending Release)**
 
-This section is dedicated to celebrating the hard work and dedication of our Mission Control members. If you are an innovative thinker and a trailblazer in your domain, this is your chance to take the lead in crafting extraordinary missions.\
-\
-[Join us at this link!](https://discord.com/channels/987570376303341568/1156000011193176094)
+This section is dedicated to celebrating the hard work and dedication of our Mission Control members. If you are an innovative thinker and a trailblazer in your domain, this is your chance to take the lead in crafting extraordinary missions.
 
 **Ready to Embark on this Unique Expedition?**
 
