@@ -43,7 +43,7 @@ Remember, all activities are quantified both by size and duration. And the beaut
 Apart from the primary tasks, there are more avenues to explore:
 
 * **Vessel Launch:** Initiate and maintain your Vessel. Remember: opening a Vessel is rewarded only once throughout the entire program. K
-* **Galaxe Social Campaign:** Engage actively with our community-driven campaign.
+* **Galxe Social Campaign:** Engage actively with our community-driven campaign.
 * **Possess a Unique POAP:** Holding one of our special POAPs gives you an added advantage.
 
 ***
