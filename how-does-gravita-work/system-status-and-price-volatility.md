@@ -63,7 +63,7 @@ This does not mean that the value of GRAI will always be equal to $ 1 USD; users
 
 ## How is GRAI price determined?
 
-Because of it's design and the previously described recovery mode, it is likely that GRAI will move around it's peg in decentralized markets in a -3%/+10% range. This does not mean that the token cannot move below or above those ranges, and users should always be careful and fully aware of their actions when using Gravita Protocol.
+Because of it's design and the previously described recovery mode, it is likely that GRAI will move around it's peg in decentralized markets in a range. This does not mean that the token cannot move below or above those ranges, and users should always be careful and fully aware of their actions when using Gravita Protocol.
 
 GRAI can be defined as a _volatility dampened token_. This happens through a combination of mechanisms defined below:
 

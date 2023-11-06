@@ -62,7 +62,7 @@ _**This is not a recommendation on how to use Gravita Protocol, use leverage at 
 
 ### 2. Collateral LTV
 
-You can find here the maximum amount of GRAI that you can borrow based on your LST collateral of choice.
+You can find here and on our front-end interface the maximum amount of GRAI that you can borrow based on your LST collateral of choice.
 
 _**REMINDER: while Gravita Protocol is by design a multi-collateral lender, you can only borrow against a single LST for each Vessel that you open. If you wish to borrow GRAI using different tokens, you will need to open a separate vessel each time.**_
 
@@ -85,7 +85,7 @@ With Gravita Protocol you can enjoy interest-free borrowing with a low maximum a
 
 ### 4. Fee refund for short term borrowers
 
-When a user repays his debt before the expiry of six months (\~182 days), the 0.5% fixed borrowing fee is refunded pro rata for the time elapsed, but at least one week worth of interest.
+When a user repays his debt before the expiry of six months (\~182 days), the fixed borrowing fee is refunded pro rata for the time elapsed, but at least one week worth of interest.
 
 The smart contract controls this decaying refund by immediately remitting the minimum fee (either to the Treasury or to a staking contract) and maintaining a record that includes the refund balance and the timestamp of the last change in the amount from the timestamp of the expiry date.
 

@@ -1,8 +1,8 @@
 # Token Overview
 
-## What is $GRAI?
+## What is GRAI?
 
-$GRAI is an over-collateralized debt token issued by Gravita Protocol. GRAI can be minted by depositing collateral on Gravita Protocol.
+GRAI is an over-collateralized debt token issued by Gravita Protocol. GRAI can be minted by depositing collateral on Gravita Protocol.
 
 ### Hard price ceiling
 
@@ -16,13 +16,9 @@ Since also bLUSD is a supported collateral asset against which users can borrow 
 
 ### Hard price floor
 
-The ability to redeem GRAI for collateral at 0.97 (i.e. 1 GRAI for $0.97 worth of collateral) creates a hard price floor, below which arbitrage opportunities become profitable.&#x20;
+The ability to redeem GRAI for collateral creates a hard price floor, below which arbitrage opportunities become profitable.&#x20;
 
 We call these "hard peg mechanisms" since they are based on direct processes.&#x20;
-
-This offers to the user a more forgiving margin to avoid redemption. More importantly, it allows GRAI to not regularly be over peg, which can over time make the implementation of GRAI less desirable.
-
-Early users should keep in mind that redemptions will not be possible at launch. However liquidations will of course be enabled directly at launch.
 
 ## What is Gravita Protocol governance token?
 

@@ -20,7 +20,8 @@ The redemptions timeline is the following:\
 \- 18th of July 2023: 0.98\
 \- 18th of August 2023: 0.99\
 \- 18th of September 2023: 0.995\
-\- 18th of October 2023: 1
+\- 18th of October 2023: 1\
+\- 06th of November 2023: 0.9975 on Mainnet, 0.995 on Arbitrum
 
 This means that there is a 1-(current redemption parameter) fee in place for redemptions that is paid out to the borrower you are redeeming against, on top of a redemption fee that is paid out to the protocol. \
 \
