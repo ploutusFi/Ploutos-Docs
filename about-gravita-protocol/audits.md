@@ -2,7 +2,7 @@
 
 ### Smart Contract Auditors
 
-Here are the findings of the audits performed by Gravita Protocol's partners on the code deployed at the adresses in the[smart-contracts.md](smart-contracts.md "mention")section.&#x20;
+Here are the findings of the audits performed by Gravita Protocol's partners on the code deployed at the addresses in the[smart-contracts.md](smart-contracts.md "mention")section.&#x20;
 
 Gravita was audited by:
 
