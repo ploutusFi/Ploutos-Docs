@@ -32,6 +32,44 @@ description: >-
 | GasPool                 | 0x9D8bB5496332cbeeD59f1211f28dB8b5Eb214B6D |
 | PriceFeedL2             | 0xF0e0915D233C616CB727E0b2Ca29ff0cbD51B66A |
 
+### Optimism
+
+| Contract Name           | Contract Address                           |
+| ----------------------- | ------------------------------------------ |
+| GRAI Adress             | 0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487 |
+| Timelock                | 0x9D8bB5496332cbeeD59f1211f28dB8b5Eb214B6D |
+| ActivePool              | 0x8Bbf5C949B05E185c470553ADD43f15118CA3e44 |
+| AdminContract           | 0x326398De2dB419Ee39F97600a5eeE97093cf3B27 |
+| BorrowerOperations      | 0x82e34E39126190e622EBb2801e047D587AC94c5D |
+| CollSurplusPool         | 0x6b42581aC12F442503Dfb3dff2bC75ed83850637 |
+| DefaultPool             | 0xC818f878F27D0273Fb53B71d281C82921F0aF15c |
+| FeeCollector            | 0x24aE02776B3C76Cb20caf4EA24f8a8Bd438B09E7 |
+| SortedVessels           | 0x0D2c4aE1859c4F8BFd47755d52cE844B26cb2a09 |
+| StabilityPool           | 0xC8a25eA0Cbd92A6F787AeED8387E04559053a9f8 |
+| VesselManager           | 0x40E0e274A42D9b1a9D4B64dC6c46D21228d45C20 |
+| VesselManagerOperations | 0x5Bd5b45f6565762928A79779F6C2DD43c15c92EE |
+| GasPool                 | 0x6AdAA3eBa85c77e8566b73AEfb4C2f39Df4046Ca |
+| PriceFeedL2             | 0x15f74458aE0bFdAA1a96CA1aa779D715Cc1Eefe4 |
+
+### Linea
+
+| Contract Name           | Contract Address                           |
+| ----------------------- | ------------------------------------------ |
+| GRAI Adress             | 0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487 |
+| Timelock                | 0x1A9942B9Eca8EC175261fD0F60a71aE4745520A4 |
+| ActivePool              | 0xC818f878F27D0273Fb53B71d281C82921F0aF15c |
+| AdminContract           | 0xC8a25eA0Cbd92A6F787AeED8387E04559053a9f8 |
+| BorrowerOperations      | 0x40E0e274A42D9b1a9D4B64dC6c46D21228d45C20 |
+| CollSurplusPool         | 0x5Bd5b45f6565762928A79779F6C2DD43c15c92EE |
+| DefaultPool             | 0x57a1953bF194A1EF73396e442Ac7Dc761dCd23cc |
+| FeeCollector            | 0x9D8bB5496332cbeeD59f1211f28dB8b5Eb214B6D |
+| SortedVessels           | 0xF0e0915D233C616CB727E0b2Ca29ff0cbD51B66A |
+| StabilityPool           | 0x42865C7FA0b84cf76C8e8256f3356226EDC3b1be |
+| VesselManager           | 0xdC44093198ee130f92DeFed22791aa8d8df7fBfA |
+| VesselManagerOperations | 0x53525a62e55B6002792B993a2C27Af70d12443e4 |
+| GasPool                 | 0xAdEa044772cFd35d996aa5E0dE12Ed5937BAdD61 |
+| PriceFeedL2             | 0xAD1B9867BEFD148c9476B9Dd1e7C749bFcefbB2e |
+
 ### Goerli
 
 | Contract Name                     | Address                                    |
