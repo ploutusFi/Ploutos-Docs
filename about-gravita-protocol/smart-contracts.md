@@ -36,8 +36,9 @@ description: >-
 
 Here's a table with the title and address of each entry on the same line, discarding the other data:
 
-| Title                   | Address                                    |
+| Name                    |                                            |
 | ----------------------- | ------------------------------------------ |
+| GRAI Address            | 0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66 |
 | ActivePool              | 0x82e34E39126190e622EBb2801e047D587AC94c5D |
 | AdminContract           | 0x6b42581aC12F442503Dfb3dff2bC75ed83850637 |
 | BorrowerOperations      | 0xC818f878F27D0273Fb53B71d281C82921F0aF15c |
