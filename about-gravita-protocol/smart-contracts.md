@@ -32,6 +32,26 @@ description: >-
 | GasPool                 | 0x9D8bB5496332cbeeD59f1211f28dB8b5Eb214B6D |
 | PriceFeedL2             | 0xF0e0915D233C616CB727E0b2Ca29ff0cbD51B66A |
 
+### Polygon zkEVM
+
+Here's a table with the title and address of each entry on the same line, discarding the other data:
+
+| Title                   | Address                                    |
+| ----------------------- | ------------------------------------------ |
+| ActivePool              | 0x82e34E39126190e622EBb2801e047D587AC94c5D |
+| AdminContract           | 0x6b42581aC12F442503Dfb3dff2bC75ed83850637 |
+| BorrowerOperations      | 0xC818f878F27D0273Fb53B71d281C82921F0aF15c |
+| CollSurplusPool         | 0x24aE02776B3C76Cb20caf4EA24f8a8Bd438B09E7 |
+| DefaultPool             | 0x0D2c4aE1859c4F8BFd47755d52cE844B26cb2a09 |
+| FeeCollector            | 0xC8a25eA0Cbd92A6F787AeED8387E04559053a9f8 |
+| GasPool                 | 0x532E0cdC31f3bc0b38c7A1d1274E1211cCF81B75 |
+| SortedVessels           | 0x40E0e274A42D9b1a9D4B64dC6c46D21228d45C20 |
+| PriceFeed               | 0x5C3B45c9F9C6e3d37De94BC03318622D3DD3f525 |
+| StabilityPool           | 0x5Bd5b45f6565762928A79779F6C2DD43c15c92EE |
+| Timelock                | 0x42865C7FA0b84cf76C8e8256f3356226EDC3b1be |
+| VesselManager           | 0x57a1953bF194A1EF73396e442Ac7Dc761dCd23cc |
+| VesselManagerOperations | 0x9D8bB5496332cbeeD59f1211f28dB8b5Eb214B6D |
+
 ### Optimism
 
 | Contract Name           | Contract Address                           |
