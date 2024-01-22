@@ -66,6 +66,25 @@ description: >-
 | VesselManager           | `0xdC44093198ee130f92DeFed22791aa8d8df7fBfA` |
 | VesselManagerOperations | `0x53525a62e55B6002792B993a2C27Af70d12443e4` |
 
+### Mantle
+
+| Contract Name           | Contract Address                             |
+| ----------------------- | -------------------------------------------- |
+| GRAI Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
+| ActivePool              | `0xF31D88232F36098096d1eB69f0de48B53a1d18Ce` |
+| AdminContract           | `0x4F39F12064D83F6Dd7A2BDb0D53aF8be560356A6` |
+| BorrowerOperations      | `0xdB5DAcB1DFbe16326C3656a88017f0cB4ece0977` |
+| CollSurplusPool         | `0xc49B737fa56f9142974a54F6C66055468eC631d0` |
+| DefaultPool             | `0x0a3137E103a8F268Fa065f6d5922ed6173B7BDFA` |
+| FeeCollector            | `0x6AdAA3eBa85c77e8566b73AEfb4C2f39Df4046Ca` |
+| GasPool                 | `0xdC44093198ee130f92DeFed22791aa8d8df7fBfA` |
+| PriceFeed               | `0x53525a62e55B6002792B993a2C27Af70d12443e4` |
+| SortedVessels           | `0x15f74458aE0bFdAA1a96CA1aa779D715Cc1Eefe4` |
+| StabilityPool           | `0x532E0cdC31f3bc0b38c7A1d1274E1211cCF81B75` |
+| Timelock                | `0xB7D276B74B4c8042aD22d78fFAD15fA5bd02A783` |
+| VesselManager           | `0x5C3B45c9F9C6e3d37De94BC03318622D3DD3f525` |
+| VesselManagerOperations | `0x10308774e482e16671d8DCc847AC6b701f516611` |
+
 ### Optimism
 
 | Contract Name           | Contract Address                             |
