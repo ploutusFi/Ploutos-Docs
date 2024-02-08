@@ -101,7 +101,7 @@ Make a difference in the Ethereum ecosystem by supporting minority liquid stakin
 
 ### 7. Oracles
 
-Gravita uses Chainlink and RedStone as oracles.&#x20;
+Gravita uses Chainlink, RedStone and API3 as oracles.&#x20;
 
 RedStone serves as a sophisticated Modular Oracle, proficiently providing price feeds for both established and emerging LSTs. It achieves this by sourcing data from off-chain entities such as centralized exchanges (CEXes) and aggregators, as well as on-chain platforms like decentralized exchanges (DEXes). Notably, RedStone's compatibility with all EVM-aligned chains positions Gravita advantageously for potential cross-chain expansions in the future. \
 \
