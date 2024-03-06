@@ -11,6 +11,7 @@
 * [Stability Pool](how-does-gravita-work/stability-pool.md)
 * [Fee Model](how-does-gravita-work/fee-model.md)
 * [System Status and Price Volatility](how-does-gravita-work/system-status-and-price-volatility.md)
+* [Paymaster on zkSync](how-does-gravita-work/paymaster-on-zksync.md)
 
 ## About Gravita Protocol
 
