@@ -15,7 +15,7 @@ With the Paymaster Settings, you can opt to pay your transaction costs with GRAI
 \
 As of March 2024, you will receive the zkSync gas refund in the same token that you chose to pay the gas fee in. This integration offers a significant improvement in convenience, allowing you to utilize your GRAI holdings directly for transaction costs, and simplifying the process of interacting with Gravita Protocol.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Use GRAI instead of ETH to pay for gas fees on zkSync</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/GIFBtaHagAAa6Cx.png" alt=""><figcaption><p>Use GRAI instead of ETH to pay for gas fees on zkSync</p></figcaption></figure>
 
 To set up your Paymaster preferences:
 
