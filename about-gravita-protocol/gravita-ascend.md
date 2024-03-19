@@ -48,25 +48,27 @@ Apart from the primary tasks, there are more avenues to explore:
 
 ## Chapter 2: Race to the Beacon
 
-1. **The Ascend Leaderboard**
+1. **Marks Reset and The Ascend Leaderboard Odyssey**
 
-Building on similar principles as Chapter 1, embark on a journey where your actions carve your path to glory in the Gravita cosmos. The Ascend Leaderboard is where valor and strategy merge, rewarding pioneers for their dedication and cunning.
+As we embark on Chapter 2 of Gravita Ascend: Race to the Beacon, it's important to note that all Marks from Chapter 1 have been reset, setting the stage for a fresh start and a leveled playing field for all pioneers venturing into this new chapter.
 
-* **Active Vessel Command:** Your foremost mission is to maintain an active Vessel. The longevity and robustness of your Vessel not only symbolize your commitment but are also rewarded with Marks, reflecting the size and tenure of your command.
-* **Stability Pool Contributions:** Venture further by contributing GRAI to the Stability Pool. This crucial operation ensures the ecosystem's stability and is acknowledged with Marks, honoring both the magnitude and duration of your contributions.
-* **Liquidity Operations:** The cosmos thrives on liquidity. Allocate GRAI into designated Liquidity Pools, and receive Marks as a testament to your contributions. Like stars in the sky, each operation is measured by its size and duration, illuminating your path on the leaderboard.
+Embark anew on a journey where each action etches your path to glory across the Gravita cosmos. The Ascend Leaderboard awaits, ready to reward valor and strategic finesse.
 
-These primary missions form the core of your interstellar endeavor, with Marks awarded retroactively, ensuring fairness across all realms of our vast DeFi universe.
+* **Active Vessel Command:** Your first command is to maintain an active Vessel. With Marks reset, your vessel's endurance and capacity start anew in earning you Marks, signifying your renewed commitment.
+* **Stability Pool or Lending Protocol Contributions:** Contribute GRAI to the Stability Pool, a vital action for the ecosystem's equilibrium, now more rewarding as Marks are recalibrated and awarded reflecting the magnitude and persistence of your contributions. Users deploying GRAI in the Stability Pool and/or on Lending Protocols like ZeroLend, Silo and more will receive 2X the Marks allocation.
+* **Liquidity Operations:** The cosmos thrives on liquidity. Allocate GRAI into designated Liquidity Pools, with Marks signifying the size and duration of your contributions, now starting afresh in this new chapter.
 
-2. **Navigating the Time Distortion**
+These primary missions mark the beginning of your interstellar endeavor in Chapter 2, with Marks attributed retroactively and equitably across all domains of our expansive DeFi universe.
 
-As the Race to the Beacon unfolds, adventurers find themselves amidst a cosmic anomaly—a gravitational field that warps time itself. This distortion creates a labyrinth of temporal puzzles, challenging your perception and strategy.
+2. **Navigating the Time Distortion and Marks Accumulation**
 
-* **The Anomaly's Challenge:** The gravitational distortion affects our countdown to The Genesis Expedition, rendering it a dynamic and fluctuating puzzle. Events and milestones may shift unexpectedly, demanding adaptability and foresight from all participants.
-* **Adapting to Flux:** Success in this chapter requires more than steadfastness; it demands agility. As time expands and contracts, so too must your strategies. Embrace the uncertainty of the anomaly, and let it guide your mission strategies and collaborations.
-* **A Cosmic Opportunity:** This temporal puzzle isn't just a challenge; it's an opportunity. It allows for unique strategies and unexpected alliances, as participants navigate the fluctuating tides of time to secure their ascent on the leaderboard.
+With the onset of Chapter 2, participants encounter a gravitational anomaly, warping time and introducing a novel dynamic to earning Marks. This cosmic puzzle not only challenges your navigational prowess but also enhances the potential for Marks accumulation.
 
-In Chapter 2 of Gravita Ascend, the race transcends conventional boundaries, inviting you into a realm where time bends to the will of the cosmos. Will you harness the anomaly, adapt your strategies, and ascend as a legend in the Gravita universe? The beacon awaits, and with it, the chance to etch your name among the stars.
+* **The Anomaly's Impact on Marks:** Due to the time distortion created by the gravitational anomaly, the Marks earned by users will increase over time. The longer the chapter unfolds, the more Marks are accumulated, rewarding those who adapt and persevere through this temporal maze.
+* **Adapting to Time-Enhanced Rewards:** The unique time distortion effect means that your strategies must evolve. The fluctuating nature of time in this chapter allows for an increased accumulation of Marks, especially for those who remain engaged and proactive in their contributions and missions.
+* **Leveraging the Temporal Flux:** This chapter's time-distorted environment isn't just a hurdle; it's a strategic element. It encourages continuous engagement and offers increasing rewards for persistence, enabling creative strategies and collaborative efforts to thrive amidst the shifting temporal landscape.
+
+In Gravita Ascend's Chapter 2, the Race to the Beacon transcends mere exploration, inviting you to a realm where time not only tests but also amplifies your achievements. With Marks from Chapter 1 reset and the introduction of time-enhanced Marks accumulation, your journey through this celestial odyssey promises new heights of glory. Will you master the temporal flux and rise to prominence on the Ascend Leaderboard? The beacon calls, offering a path to legendary status among the stars.
 
 **Ready to Embark on this Unique Expedition?**
 
