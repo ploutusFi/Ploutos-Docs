@@ -10,9 +10,11 @@ It is important to note that bLUSD Vessels cannot be liquidated or redeemed agai
 
 ## Redemptions
 
+Redemptions allow GRAI holders to directly redeem their GRAI for collateral from the vessels with the hiughest LTV in the system. This mechanism ensures that GRAI maintains a price close to the redemption parameter.
+
 ### What are redemptions?
 
-The redemption mechanism gives GRAI holders the ability to redeem GRAI for a certain amount of USD worth of underlying collateral at any time. \
+The redemption mechanism gives GRAI holders the ability to redeem GRAI for a certain amount of USD-worth of underlying collateral at any time. \
 \
 The redemptions timeline is the following:\
 \
@@ -21,13 +23,15 @@ The redemptions timeline is the following:\
 \- 18th of August 2023: 0.99\
 \- 18th of September 2023: 0.995\
 \- 18th of October 2023: 1\
-\- 06th of November 2023: 0.9975 on Mainnet, 0.995 on Arbitrum
+\- 06th of November 2023: 0.9975 on Mainnet, 0.995 on Arbitrum and other L2s
 
 This means that there is a 1-(current redemption parameter) fee in place for redemptions that is paid out to the borrower you are redeeming against, on top of a redemption fee that is paid out to the protocol. \
 \
 It will not initially possible to redeem collateral against other users through our web interface.
 
-Only the riskiest Vessels are redeemed against: if you keep a low LTV, your risk of being redeemed against decreases. Once you open a Vessel, you can always see through our UI how much GRAI needs to be redeemed for your collateral to start being impacted, at the mention "Debt ahead".
+Redemptions happen first to the Vessel with the highest LTV. It is important to note that, in some environments, even LTVs at 40% or below cannot be considered "safe" against redemptions, if you are the user with the highest LTV. In order to avoid redemptions, a user needs to keep a low LTV compared to the one of the other participants in the protocol. Alternatively, GRAI price needs to regularly trade above the redemption parameter. During such circumstances, your risk of being redeemed against decreases. \
+\
+When you launch your Vessel, you can always see through our UI how much GRAI needs to be redeemed for your collateral to start being impacted, at the mention "Debt ahead".
 
 ### Is a redemption the same as paying back my debt?&#x20;
 
@@ -35,11 +39,23 @@ No, redemptions are a completely separate mechanism. All one has to do to pay ba
 
 ### As a borrower, do I lose money if I'm redeemed against?&#x20;
 
-If your Vessel is redeemed against, you _do not_ incur a net loss. However, you will lose some of your collateral exposure. Your Vessel's LTV will also improve after a redemption.&#x20;
+If your Vessel is redeemed against, you _do not_ incur a net loss. However, you will lose exposure to the collateral of your choice. Your Vessel's LTV will also improve after a redemption, or your Vessel will be fully closed.
 
 ### How can I avoid being redeemed against?&#x20;
 
-The best way to avoid being redeemed against is by maintaining a low LTV relative to the rest of the Vessels in the system. Remember: The riskiest Vessels (i.e. lowest collateralized Vessels) are first in line when a redemption takes place.&#x20;
+The best way to avoid being redeemed against is by maintaining a low LTV relative to the rest of the Vessels in the system. A "Debt Ahead" value is displayed when launching a Vessel, indicating how much GRAI needs to be redeemed before your Vessel is affected. Remember: The riskiest Vessels (i.e. lowest collateralized Vessels) are first in line when a redemption takes place.&#x20;
+
+### How It Works
+
+Redemptions can currently only be performed by bots or by interacting direclty with our smart contracts.
+
+1. **Initiation**: A GRAI holder (typically a bot) initiates a redemption by sending GRAI to the Gravita smart contract and indicating the amount they wish to redeem.
+2. **Execution**: The protocol automatically identifies the vessels with the highest LTV collateral ratios (starting from the highest and moving downwards) and redeems the GRAI for collateral (based on the oracle price) from these vessels. The collateral is then sent to the redeemer's address with a small fee that is collected by the protocol.
+3. **Impact on Vessels**: The redeemed GRAI is burned, and the corresponding amount of collateral is removed from the collateral of the affected vessels. This process continues until the total amount of GRAI requested for redemption has been fulfilled.
+
+### Stability Mechanism
+
+The redemption mechanism is a crucial stabilizer for GRAI. In scenarios where GRAI trades below its redemption parameter, users are incentivized to buy GRAI at a discount and redeem it for collateral with a superior value, thus reducing the GRAI supply and helping it trade closer to its redemption parameter. Conversely, when GRAI is above the redemption parameter, users are incentivized to launch vessels (borrow GRAI) and sell it for a profit, increasing GRAI supply until the peg is restored.
 
 ## Liquidations
 
