@@ -13,6 +13,10 @@
 * [System Status and Price Volatility](how-does-gravita-work/system-status-and-price-volatility.md)
 * [Paymaster on zkSync](how-does-gravita-work/paymaster-on-zksync.md)
 
+## Liquidity Mining Programs
+
+* [Preview of Arbitrum LTIPP - goARB](liquidity-mining-programs/preview-of-arbitrum-ltipp-goarb.md)
+
 ## About Gravita Protocol
 
 * [Audits](about-gravita-protocol/audits.md)
