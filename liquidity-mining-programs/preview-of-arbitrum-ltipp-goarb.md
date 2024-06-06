@@ -9,15 +9,15 @@ description: >-
 
 The grant will be used to incentivize liquidity growth on Gravita so the protocol can underwrite loans for larger positions, enabling more hedging and looping strategies. Read [the full grant proposal here for all the details.](https://forum.arbitrum.foundation/t/gravita-protocol-ltipp-application-final/21444)
 
-You can manage your rewards from the new Rewards page at \[TODO]. The goARB contract address is `0xC5e16f5009776aB645d6719B72962892428b2ac2`.
+You can manage your rewards from the new [Rewards page](https://app.gravitaprotocol.com/goarb). The goARB contract address is `0xC5e16f5009776aB645d6719B72962892428b2ac2`.
 
 ## What is the goARB Incentives Program?
 
 Users receive goARB as an incentive token through our DeFi partners, including Dolomite, Silo, Ramses, and others. goARB, or Gravita Option ARB, allows users to purchase ARB at a discount ranging from a minimum of 20% to a maximum of 100% after a 40-week vesting period.
 
-goARB is continuously emitted and can be vested on a first-come, first-serve basis. Users can exit goARB instantly by matching it with 80 GRAI for every 20 dollars worth of goARB (equivalent to 1 ARB). Alternatively, goARB can be vested for up to 40 weeks, at the end of which 1 goARB equals 1 ARB without needing to match it with GRAI.
+goARB is continuously emitted and can be vested on a first-come, first-serve basis. Users can exit goARB instantly by paying 80 GRAI for every 100 dollars worth of goARB (equivalent to 1 ARB). This equates to a 20% discount. Alternatively, goARB can be vested for up to 40 weeks, where the discount increases linearly. If a user vests for the full 40 weeks, the discount becomes 100% which means goARB converts to ARB at 0 cost to the user.
 
-This linear vesting process increases the holder's discount by 2% each passing week. After the vesting period is completed, users can purchase ARB at a discount using GRAI. The discount depends on how long you lock goARB, as shown in our UI and explained before. Achieving the maximum discount requires users to hold the paired ARB for a longer duration.
+This linear vesting process increases the holder's discount by 2% each passing week. After the vesting period is completed, users can purchase ARB at a discount using GRAI. The discount depends on how long the user locks goARB, as shown in our UI. Achieving the maximum discount requires users to hold the paired ARB for a longer duration.
 
 The price will be determined via a Chainlink oracle at the time of purchase, ensuring fair pricing and profitability for farmers. Keep in mind that goARB must be paired with GRAI valued at 1 USD on a 1:1 basis to begin vesting. This helps offset ARB sell pressure and prevents users from vesting goARB too quickly if they accumulate a large amount, similar to esGMX and GMX vesting.
 
@@ -29,11 +29,13 @@ Once you have claimed goARB and have a goARB balance, you can begin vesting. Thi
 
 To vest, enter the amount of goARB you would like to vest into the input field. You will need to pair your goARB with GRAI. For example, if you wanted to vest 100 goARB, you would need to hold the same value in GRAI (valued at $1 USD inside Gravita Protocol) that you can pair with it for the duration of the vesting period. Until vesting completes, the GRAI will be locked along with the goARB. After vesting, the paired GRAI will be returned to you, and the goARB will be burned in exchange for ARB.
 
-After entering an amount of goARB, select your vesting discount using the slider. The discount size is based on how long you choose to vest. Moving the vesting slider to the right increases the vesting time and the discount for purchasing ARB. The slider increments by 2% per week. The minimum vest time is 1 week for a 20% discount, with the maximum being 40 weeks for a 100% discount on ARB. The discount is applied when vesting is started, using the market rate at that time.
+After entering an amount of goARB, select your vesting discount using the slider. The discount size is based on how long you choose to vest. Moving the vesting slider to the right increases the vesting time and the discount for purchasing ARB. The slider increments by 2% per week. The minimum vest time is 1 week for a 20% discount, with the maximum being 40 weeks for a 100% discount on ARB. The discount is applied when vesting is started, using the market rate at that time.\
+\
+During the vesting period, GRAI is earning yield for you by being deposited on Dolomite. The yield from GRAI is given to you when you end the vest.
 
 ## **How to Claim goARB**
 
-Claiming goARB can be done on the goARB \[ADD LINK] page. There is a minimum of at least 0.01 goARB for claiming. If you did not earn at least 0.01 goARB for the given week, your claim amount will be shown as 0.
+Claiming goARB can be done on the [goARB page](https://app.gravitaprotocol.com/goarb). There is a minimum of at least 0.01 goARB for claiming. If you did not earn at least 0.01 goARB for the given week, your claim amount will be shown as 0.
 
 <figure><img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXd6TUGvL-BAyirv8CcnQIjxHpukUWVBHXTDAJ5kn3HYJa0sq0VbY8U4QlzfgGydKMbYsf9A_IhCBEXLsi2Fo2vGBeKcTx185O1z_AP59SnPt73sRpdhFzf2Rh6flPW9d6bL_fDHB71Fw1vVX3eSeV__7tI?key=Ix1qwLj8iqn6_Q3wepQ5UQ" alt=""><figcaption></figcaption></figure>
 
