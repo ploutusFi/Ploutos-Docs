@@ -45,6 +45,17 @@ You can see goARB that you have currently vesting in the "Currently Vesting" sec
 
 When the vesting period has completed, you have four weeks to execute your vest. You can do so by clicking the "Execute" button for the completed vest. This will bring up an Execution Summary, showing what will be sent when you execute, including the Vesting NFT for that specific vest and the amount of GRAI needed to purchase the vested ARB at the discounted price. The discount is based on the market price at the time of execution. Details of the cost and discount are displayed in the execution summary.
 
+## Security Notice for goARB Contracts
+
+**Understanding the Risks**
+
+While the goARB contracts have been forked from oARB and developed by Dolomite, which boasts an excellent security track record and run a very successful oARB STIPP program, they have not been formally audited for security vulnerabilities. This means that participating in unaudited contracts carries a higher financial risk. Therefore, we strongly advise conducting your own research and considering advice from trusted experts before participating.
+
+**Gravita’s Commitment to Security**
+
+1. **Internal Reviews**: Our development team conducts thorough internal code reviews.
+2. **Open Source and Community Engagement**: We encourage community reporting of any bugs or vulnerabilities.
+
 ## **Why Was the Program Designed This Way?**
 
 This rewards program was designed to distribute ARB while avoiding mercenary ARB farming that harms the Arbitrum ecosystem and ARB market. It rewards users committed to the long-term health of ARB. We believe that Gravita’s growth shouldn't come at the expense of ARB. Pairing goARB with GRAI during the vesting period and using a discounted ARB model aligns the reward incentives with the long-term health of the ARB market and Arbitrum ecosystem while providing incentives to users who help Gravita grow in TVL.
