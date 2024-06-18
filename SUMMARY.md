@@ -12,10 +12,14 @@
 * [Fee Model](how-does-gravita-work/fee-model.md)
 * [System Status and Price Volatility](how-does-gravita-work/system-status-and-price-volatility.md)
 * [Paymaster on zkSync](how-does-gravita-work/paymaster-on-zksync.md)
+* [gravETH](how-does-gravita-work/graveth/README.md)
+  * [Unique Value Proposition](how-does-gravita-work/graveth/unique-value-proposition.md)
+  * [Participating Protocols](how-does-gravita-work/graveth/participating-protocols.md)
+  * [Risks](how-does-gravita-work/graveth/risks.md)
 
 ## Liquidity Mining Programs
 
-* [Preview of Arbitrum LTIPP - goARB](liquidity-mining-programs/preview-of-arbitrum-ltipp-goarb.md)
+* [Arbitrum LTIPP - goARB](liquidity-mining-programs/arbitrum-ltipp-goarb.md)
 
 ## About Gravita Protocol
 
