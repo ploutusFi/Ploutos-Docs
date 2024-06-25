@@ -25,7 +25,7 @@ To learn more about StakeWise’s architecture, see here: [StakeWise V3 Announce
 
 ### **NodeSet: Decentralized Node Operators**
 
-NodeSet builds custom staking infrastructure to connect its large population of individual and professional node operators to opportunities across the Web3 ecosystem. NodeSet is currently developing a next-generation liquid staking protocol on top of Rocket Pool (Project Constellation) while actively seeking partnerships to scale other permissionless and decentralized staking products (e.g., StakeWise). NodeSet focuses on supporting protocols that prioritize decentralization, making Gravita a natural partner. Since applications opened in September 2023, NodeSet has onboarded over 150 node operators, with many hundreds more expected by Q2 2024.
+NodeSet builds custom staking infrastructure to connect its large population of individual and professional node operators to opportunities across the Web3 ecosystem. NodeSet is currently developing a next-generation liquid staking protocol on top of Rocket Pool (Project Constellation) while actively seeking partnerships to scale other permissionless and decentralized staking products (e.g., StakeWise). NodeSet focuses on supporting protocols that prioritize decentralization, making Gravita a natural partner. Since applications opened in September 2023, NodeSet has over 250 validators onboarded as of June 2024.
 
 NodeSet’s risk management model focuses on maximal asset distribution across a highly-skilled node operator base, reducing the potential impact of individual events. When per-operator exposure is minimized, risk is also minimized. Our operators are technically oriented (85% have engineering backgrounds) and must operate validators effectively on Ethereum mainnet for a significant time before joining. Additionally, NodeSet’s operator cohort exhibits strong distribution across various characteristics:
 
@@ -34,7 +34,5 @@ NodeSet’s risk management model focuses on maximal asset distribution across a
 * Validation Hardware
 * On-Premise / Bare Metal / Cloud Hosted
 * Jurisdictional
-
-For end users, we are glad to discuss specific additional requirements for our node operators (e.g., if you require specific geographic or jurisdictional exposure, KYC standards, etc).
 
 All NodeSet services are provided non-custodially, ensuring no party (neither NodeSet nor its operators) takes custody of assets at any time.
