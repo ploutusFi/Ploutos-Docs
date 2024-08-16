@@ -81,7 +81,7 @@ WETH liquidations will always be total liquidations.&#x20;
 
 Many borrowing protocols offer a variable borrowing APR that is determined based on supply and demand. This can be quite inconvenient for users since they need to constantly check their position to avoid liquidation. As shown recently, variable APR can increase quite drastically and suddenly, which can cause a sub-optimal user experience.
 
-With Gravita Protocol you can enjoy interest-free borrowing with a low maximum and fixed one time fee of 0.5% for positions longer than 6 months. Short term borrowers will be incentivized to use the protocol with a partial refund mechanism.
+With Gravita Protocol you can enjoy interest-free borrowing with a low maximum and fixed one time fee for positions longer than 6 months. Short term borrowers will be incentivized to use the protocol with a partial refund mechanism.
 
 ### 4. Fee refund for short term borrowers
 
