@@ -17,6 +17,12 @@
   * [Participating Protocols](how-does-gravita-work/graveth/participating-protocols.md)
   * [Risks](how-does-gravita-work/graveth/risks.md)
 
+## Constellation
+
+* [Overview](constellation/overview.md)
+* [Gravita's Role & Contribution](constellation/gravitas-role-and-contribution.md)
+* [Ethos](constellation/ethos.md)
+
 ## Liquidity Mining Programs
 
 * [Arbitrum LTIPP - goARB](liquidity-mining-programs/arbitrum-ltipp-goarb.md)
