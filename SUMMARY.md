@@ -20,6 +20,7 @@
 ## Constellation
 
 * [Overview](constellation/overview.md)
+* [Delete the Deposit Pool Campaign](constellation/delete-the-deposit-pool-campaign.md)
 * [Gravita's Role & Contribution](constellation/gravitas-role-and-contribution.md)
 * [Ethos](constellation/ethos.md)
 
