@@ -32,7 +32,7 @@ We require that you hold xrETH in one or more of the above venues for 6 months a
 
 ### Rewards
 
-Gravita charges xRPL holders a fee every month, currently set at 40%. A large percentage of the fees accrue to a reward pool over the vesting period. At the end of the vesting period, eligible xrETH holders will receive their addresses’ proportional share of the final pool (e.g, if 1000 ETH was eligible and you deposited 200 ETH, you would receive 20% of the xRPL reward pool at the end of the vesting period).&#x20;
+Gravita charges xRPL holders a fee every month, currently set at 35%. A large percentage of the fees accrue to a reward pool over the vesting period. At the end of the vesting period, eligible xrETH holders will receive their addresses’ proportional share of the final pool (e.g, if 1000 ETH was eligible and you deposited 200 ETH, you would receive 20% of the xRPL reward pool at the end of the vesting period).&#x20;
 
 <mark style="color:red;">**NOTE: IF YOU FAIL TO HOLD YOUR XRETH FOR THE ENTIRE VESTING PERIOD, YOU WILL BE REMOVED FROM THE REWARD POOL.**</mark>
 
@@ -54,7 +54,11 @@ In the event Constellation hits specific xrETH minting milestones during the ves
 \
 
 
-In the case of a modest launch, early xrETH minters will receive 25% of the total xRPL fees from the system! In our view, as Constellation becomes more successful, the earliest protocol supporters deserve to share in that success. In a runaway scenario, xrETH minters will share in 40% of the system’s RPL fees over the vesting period.&#x20;
+### **EXTRA UNLOCK:  Mint until October 28th and receive an additional 5% in rewards!**
+
+This means that if you hit the 10,000 xrETH threshold with a 30% revenue share, you’ll now enjoy a **35% share**—exclusively for early minters. Seize this opportunity before the deadline to maximize your returns!
+
+After the 28th of Octtober, the regular program will resume: In the case of a modest launch, early xrETH minters will receive 25% of the total xRPL fees from the system! In our view, as Constellation becomes more successful, the earliest protocol supporters deserve to share in that success. In a runaway scenario, xrETH minters will share in 40% of the system’s RPL fees over the vesting period.&#x20;
 
 Rewards will be distributed to xrETH holders in the form of xRPL. Setting aside the rewards in the form of xRPL unlocks the assets to be put to work in Constellation, growing the system and generating additional rewards from RPL emissions over the vesting period!
 
