@@ -49,7 +49,7 @@ In the event Constellation hits specific xrETH minting milestones during the ves
 
 | xrETH Minted  | 0   | 10,000 | 25,000 | 50,000 |
 | ------------- | --- | ------ | ------ | ------ |
-| RPL Rev Share | 35% | 40%    | 45%    | 50%    |
+| RPL Rev Share | 25% | 30%    | 35%    | 40%    |
 
 \
 
