@@ -1,6 +1,6 @@
 ---
 description: >-
-  Gravita is a decentralized protocol that allows Ether or liquid staking
+  Levra is a decentralized protocol that allows Ether or liquid staking
   derivatives (LSDs) holders to obtain maximum liquidity against their
   collateral without paying interest.
 ---
@@ -31,7 +31,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x15f74458aE0bFdAA1a96CA1aa779D715Cc1Eefe4` |
+| USDL Address            | `0x15f74458aE0bFdAA1a96CA1aa779D715Cc1Eefe4` |
 | ActivePool              | `0x2b0024ecee0626E9cFB5F0195F69DCaC5b759Dc9` |
 | AdminContract           | `0xf7Cc67326F9A1D057c1e4b110eF6c680B13a1f53` |
 | BorrowerOperations      | `0x2bCA0300c2aa65de6F19c2d241B54a445C9990E2` |
@@ -50,7 +50,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
+| USDL Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
 | ActivePool              | `0x84446698694B348EaeCE187b55df06AB4Ce72b35` |
 | AdminContract           | `0x4928c8F8c20A1E3C295DddBe05095A9aBBdB3d14` |
 | BorrowerOperations      | `0x89F1ecCF2644902344db02788A790551Bb070351` |
@@ -69,7 +69,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
+| USDL Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
 | ActivePool              | `0xC818f878F27D0273Fb53B71d281C82921F0aF15c` |
 | AdminContract           | `0xC8a25eA0Cbd92A6F787AeED8387E04559053a9f8` |
 | BorrowerOperations      | `0x40E0e274A42D9b1a9D4B64dC6c46D21228d45C20` |
@@ -88,7 +88,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
+| USDL Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
 | ActivePool              | `0xF31D88232F36098096d1eB69f0de48B53a1d18Ce` |
 | AdminContract           | `0x4F39F12064D83F6Dd7A2BDb0D53aF8be560356A6` |
 | BorrowerOperations      | `0xdB5DAcB1DFbe16326C3656a88017f0cB4ece0977` |
@@ -107,7 +107,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
+| USDL Address            | `0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487` |
 | ActivePool              | `0x8Bbf5C949B05E185c470553ADD43f15118CA3e44` |
 | AdminContract           | `0x326398De2dB419Ee39F97600a5eeE97093cf3B27` |
 | BorrowerOperations      | `0x82e34E39126190e622EBb2801e047D587AC94c5D` |
@@ -126,7 +126,7 @@ description: >-
 
 | Name                    |                                              |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66` |
+| USDL Address            | `0xCA68ad4EE5c96871EC6C6dac2F714a8437A3Fe66` |
 | ActivePool              | `0x82e34E39126190e622EBb2801e047D587AC94c5D` |
 | AdminContract           | `0x6b42581aC12F442503Dfb3dff2bC75ed83850637` |
 | BorrowerOperations      | `0xC818f878F27D0273Fb53B71d281C82921F0aF15c` |
@@ -145,7 +145,7 @@ description: >-
 
 | Contract Name           | Contract Address                             |
 | ----------------------- | -------------------------------------------- |
-| GRAI Address            | `0x5FC44E95eaa48F9eB84Be17bd3aC66B6A82Af709` |
+| USDL Address            | `0x5FC44E95eaa48F9eB84Be17bd3aC66B6A82Af709` |
 | ActivePool              | `0x285bc3B1b0856b41BBa1F8dd0Ef48CEDd8Ba91E1` |
 | AdminContract           | `0x441F6b484FD60C31b3ca9c61014030b0403F805a` |
 | BorrowerOperations      | `0xd085Fd2338Cefb9cBD212F74d479072C1E7A25bf` |

@@ -6,7 +6,7 @@ When operating on the cutting edge, there are always risks involved. We believe 
 
 ### **Collateral Callability**
 
-In the event of liquidations, Gravita will have the ability to withdraw assets on demand from the Gravita x NodeSet Vault. This means there is minimal risk of any kind of gravETH discount to NAV (Net Asset Value) emerging on secondary markets, even if gravETH is traded on secondaries.
+In the event of liquidations, Levra will have the ability to withdraw assets on demand from the Levra x NodeSet Vault. This means there is minimal risk of any kind of gravETH discount to NAV (Net Asset Value) emerging on secondary markets, even if gravETH is traded on secondaries.
 
 **Custodial Risk**
 
@@ -14,7 +14,7 @@ All technologies involved are entirely noncustodial. This means neither NodeSet 
 
 **Liquidations**
 
-Liquidations are an inherent risk of leveraged positions, not unique to Gravita. Gravita’s liquidation mechanism automatically executes by burning GRAI from the Stability Pool to cover the debt of over-leveraged borrowers. The GRAI Stability Pool depositors then receive the liquidated collateral pro rata.
+Liquidations are an inherent risk of leveraged positions, not unique to Levra. Levra’s liquidation mechanism automatically executes by burning USDL from the Stability Pool to cover the debt of over-leveraged borrowers. The USDL Stability Pool depositors then receive the liquidated collateral pro rata.
 
 **LST Liquidity**
 
@@ -53,7 +53,7 @@ Smart contracts can be vulnerable to hacks and exploits. We only operate on full
 **Audit Information:**
 
 * **StakeWise v3:** Launched Nov 2023, audited by Hats, Halborn, and Sigma Prime in 2023.
-* **Gravita:** Launched May 2023, audited by Hats, Dedaub, and Omnicia in 2023.
+* **Levra:** Launched May 2023, audited by Hats, Dedaub, and Omnicia in 2023.
 * **NodeSet:** Uses widely used smart contract primitives developed by 0xSplits, audited by Macro in Feb 2022.
 
 **Validator Queues**
@@ -64,4 +64,4 @@ Extreme demand for Ethereum staking may impact redemption timing and return accr
 
 * Active engagement with Ethereum researchers and other staking protocol teams to accelerate validator exits and reduce risk of NAV discounts.
 
-Gravita and NodeSet are committed to providing a safe, reliable service with these mitigants in place to address potential risks. We invite users to explore the opportunities offered by gravETH, combining advanced staking infrastructure with innovative financial strategies.
+Levra and NodeSet are committed to providing a safe, reliable service with these mitigants in place to address potential risks. We invite users to explore the opportunities offered by gravETH, combining advanced staking infrastructure with innovative financial strategies.

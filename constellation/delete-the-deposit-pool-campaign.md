@@ -1,6 +1,6 @@
 ---
 description: >-
-  Gravita is excited to announce an early adopter incentive campaign for minters
+  Levra is excited to announce an early adopter incentive campaign for minters
   of xrETH.
 ---
 
@@ -28,21 +28,21 @@ Users who mint xrETH in the first four weeks after Constellation’s launch will
 
 ### VESTING PERIOD
 
-We require that you hold xrETH in one or more of the above venues for 6 months after the initial cut-off date to claim rewards. You may shift your xrETH between the approved venues at will and not risk losing rewards. We will update the program over time as we bring new integrations online. You can learn about new integrations in the #updates channel in Gravita’s Discord.
+We require that you hold xrETH in one or more of the above venues for 6 months after the initial cut-off date to claim rewards. You may shift your xrETH between the approved venues at will and not risk losing rewards. We will update the program over time as we bring new integrations online. You can learn about new integrations in the #updates channel in Levra’s Discord.
 
 ### Rewards
 
-Gravita charges xRPL holders a fee every month, currently set at 35%. A large percentage of the fees accrue to a reward pool over the vesting period. At the end of the vesting period, eligible xrETH holders will receive their addresses’ proportional share of the final pool (e.g, if 1000 ETH was eligible and you deposited 200 ETH, you would receive 20% of the xRPL reward pool at the end of the vesting period).&#x20;
+Levra charges xRPL holders a fee every month, currently set at 35%. A large percentage of the fees accrue to a reward pool over the vesting period. At the end of the vesting period, eligible xrETH holders will receive their addresses’ proportional share of the final pool (e.g, if 1000 ETH was eligible and you deposited 200 ETH, you would receive 20% of the xRPL reward pool at the end of the vesting period).&#x20;
 
 <mark style="color:red;">**NOTE: IF YOU FAIL TO HOLD YOUR XRETH FOR THE ENTIRE VESTING PERIOD, YOU WILL BE REMOVED FROM THE REWARD POOL.**</mark>
 
-The Gravita team has not yet decided on the exact mechanism of distribution. Expect updates on this topic as we get closer to the conclusion of the program.&#x20;
+The Levra team has not yet decided on the exact mechanism of distribution. Expect updates on this topic as we get closer to the conclusion of the program.&#x20;
 
 ### INCENTIVE UNLOCKS
 
 We have set a number of TVL (Total Value Locked) milestones that unlock additional rewards for early adopters. The system is straightforward and should encourage the ongoing evangelization of xrETH.&#x20;
 
-In the event Constellation hits specific xrETH minting milestones during the vesting period, Gravita increments the reward share by 5%. See the table below for each milestone, and total reward share.&#x20;
+In the event Constellation hits specific xrETH minting milestones during the vesting period, Levra increments the reward share by 5%. See the table below for each milestone, and total reward share.&#x20;
 
 \
 
@@ -62,11 +62,11 @@ After the 28th of Octtober, the regular program will resume: In the case of a mo
 
 Rewards will be distributed to xrETH holders in the form of xRPL. Setting aside the rewards in the form of xRPL unlocks the assets to be put to work in Constellation, growing the system and generating additional rewards from RPL emissions over the vesting period!
 
-Regarding the allocation of remaining RPL fees, the fee share will be distributed flexibly each period based on the team’s strategic priorities. That may include incentivizing liquidity for xrETH, xRPL, or even rETH in the event of a depleted rETH deposit pool. A portion of fees may also be used to support the Gravita team’s operating expenses. &#x20;
+Regarding the allocation of remaining RPL fees, the fee share will be distributed flexibly each period based on the team’s strategic priorities. That may include incentivizing liquidity for xrETH, xRPL, or even rETH in the event of a depleted rETH deposit pool. A portion of fees may also be used to support the Levra team’s operating expenses. &#x20;
 
 ### Tracking
 
-Gravita has invested in building on-chain tracking features for our existing Ascend points system. The same system will track your wallet’s xrETH activity and calculate your rewards. As long as you stick to approved venues, we should have no trouble giving you the credit!
+Levra has invested in building on-chain tracking features for our existing Ascend points system. The same system will track your wallet’s xrETH activity and calculate your rewards. As long as you stick to approved venues, we should have no trouble giving you the credit!
 
 ### Referrals
 

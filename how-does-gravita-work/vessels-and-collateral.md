@@ -2,19 +2,19 @@
 
 ## What are Vessels?
 
-A Vessel is where you can deposit collateral against which you can borrow GRAI and maintain your loan. Each Vessel is linked to an Ethereum address and each address can have just one Vessel per collateral type. If you are familiar with Vaults or CDPs from other platforms, Vessels are a similar concept.
+A Vessel is where you can deposit collateral against which you can borrow USDL and maintain your loan. Each Vessel is linked to an Ethereum address and each address can have just one Vessel per collateral type. If you are familiar with Vaults or CDPs from other platforms, Vessels are a similar concept.
 
-Vessels maintain two balances: one is an asset acting as collateral and the other is a debt denominated in GRAI. You can change the amount of each by adding collateral or repaying debt. As you make these balance changes, your Vessel's LTV changes accordingly.
+Vessels maintain two balances: one is an asset acting as collateral and the other is a debt denominated in USDL. You can change the amount of each by adding collateral or repaying debt. As you make these balance changes, your Vessel's LTV changes accordingly.
 
 You can close your Vessel at any time (excluding the times when system is in Recovery Mode) by fully paying off your debt. You will find more information about Recovery Mode in the [System Status and Price Volatility page](system-status-and-price-volatility.md).
 
 ## Vessel Status
 
-After you open a Vessel, Gravita Protocol displays your "Vessel Status".&#x20;
+After you open a Vessel, Levra Protocol displays your "Vessel Status".&#x20;
 
-Inactive is displayed when no GRAI has been borrowed.
+Inactive is displayed when no USDL has been borrowed.
 
-<mark style="color:green;">Active</mark> is displayed when when GRAI has been borrowed, and the Vessel has not been liquidated or redeemed against.
+<mark style="color:green;">Active</mark> is displayed when when USDL has been borrowed, and the Vessel has not been liquidated or redeemed against.
 
 <mark style="color:yellow;">Redeemed</mark> is  displayed when a Vessel has been redeemed against for having a risky LTV. To find more information about Redemptions, look at our [Redemptions and Liquidations page.](redemptions-and-liquidations.md)
 
@@ -42,29 +42,29 @@ $$
 \displaystyle{L}{T}{V}={\left(\frac{{{B}{V}}}{{{C}{V}}}\right)}⋅{100}
 $$
 
-A lower LTV ratio implies a safer position for the borrower, as it means that they have more collateral relative to the borrowed amount, reducing the risk of liquidation. In Gravita Protocol, it is essential to maintain a healthy LTV ratio to avoid liquidations and ensure a smooth borrowing experience.
+A lower LTV ratio implies a safer position for the borrower, as it means that they have more collateral relative to the borrowed amount, reducing the risk of liquidation. In Levra Protocol, it is essential to maintain a healthy LTV ratio to avoid liquidations and ensure a smooth borrowing experience.
 
 For simplicity and consistency, this documentation will always refer to LTV.
 
-## Why would I want to put my collateral on Gravita Protocol?
+## Why would I want to put my collateral on Levra Protocol?
 
 ### 1. Capital efficiency and Productive Collateral
 
-Since less collateral is needed for the same loan, Gravita Protocol offers more capital efficiency than other decentralized lending platforms. Your productive asset continues to provide you with interest even when it is used as a collateral.&#x20;
+Since less collateral is needed for the same loan, Levra Protocol offers more capital efficiency than other decentralized lending platforms. Your productive asset continues to provide you with interest even when it is used as a collateral.&#x20;
 
 This is also true for your LP positions that will be available to be used as a collateral in a future update.
 
 Also, borrowers can increase their exposure to the LST of their choice by leveraging their position.
 
-For example, the proceeds of loans issued in the form of GRAI can be used to purchase more collateral, that in return allows to mint more GRAI.
+For example, the proceeds of loans issued in the form of USDL can be used to purchase more collateral, that in return allows to mint more USDL.
 
-_**This is not a recommendation on how to use Gravita Protocol, use leverage at your own risk!**_
+_**This is not a recommendation on how to use Levra Protocol, use leverage at your own risk!**_
 
 ### 2. Collateral LTV
 
-You can find here and on our front-end interface the maximum amount of GRAI that you can borrow based on your LST collateral of choice.
+You can find here and on our front-end interface the maximum amount of USDL that you can borrow based on your LST collateral of choice.
 
-_**REMINDER: while Gravita Protocol is by design a multi-collateral lender, you can only borrow against a single LST for each Vessel that you open. If you wish to borrow GRAI using different tokens, you will need to open a separate vessel each time.**_
+_**REMINDER: while Levra Protocol is by design a multi-collateral lender, you can only borrow against a single LST for each Vessel that you open. If you wish to borrow USDL using different tokens, you will need to open a separate vessel each time.**_
 
 | Token  | Maximum LTV                    |
 | ------ | ------------------------------ |
@@ -73,7 +73,7 @@ _**REMINDER: while Gravita Protocol is by design a multi-collateral lender, you 
 | wstETH | 85%                            |
 | bLUSD  | 99% (with no liquidation risk) |
 
-In addition mint caps are in place to ensure protocol stability. These numbers will be reviewed as the protocol grows and will be available [on the Gravita Protocol website.](https://www.gravitaprotocol.com/)
+In addition mint caps are in place to ensure protocol stability. These numbers will be reviewed as the protocol grows and will be available [on the Levra Protocol website.](https://www.gravitaprotocol.com/)
 
 WETH liquidations will always be total liquidations.&#x20;
 
@@ -81,7 +81,7 @@ WETH liquidations will always be total liquidations.&#x20;
 
 Many borrowing protocols offer a variable borrowing APR that is determined based on supply and demand. This can be quite inconvenient for users since they need to constantly check their position to avoid liquidation. As shown recently, variable APR can increase quite drastically and suddenly, which can cause a sub-optimal user experience.
 
-With Gravita Protocol you can enjoy interest-free borrowing with a low maximum and fixed one time fee for positions longer than 6 months. Short term borrowers will be incentivized to use the protocol with a partial refund mechanism.
+With Levra Protocol you can enjoy interest-free borrowing with a low maximum and fixed one time fee for positions longer than 6 months. Short term borrowers will be incentivized to use the protocol with a partial refund mechanism.
 
 ### 4. Fee refund for short term borrowers
 
@@ -91,7 +91,7 @@ The smart contract controls this decaying refund by immediately remitting the mi
 
 ### 5. Peg Stability and Softer Redemptions
 
-In order to reduce the volatility of GRAI, a Liquity-like redemption mechanism will be enabled after launch. More information is available on the [Redemptions and Liquidations](redemptions-and-liquidations.md) page.
+In order to reduce the volatility of USDL, a Liquity-like redemption mechanism will be enabled after launch. More information is available on the [Redemptions and Liquidations](redemptions-and-liquidations.md) page.
 
 You can find more on the [System Status and Price Volatility page.](system-status-and-price-volatility.md)
 
@@ -101,8 +101,8 @@ Make a difference in the Ethereum ecosystem by supporting minority liquid stakin
 
 ### 7. Oracles
 
-Gravita uses Chainlink, RedStone and API3 as oracles.&#x20;
+Levra uses Chainlink, RedStone and API3 as oracles.&#x20;
 
-RedStone serves as a sophisticated Modular Oracle, proficiently providing price feeds for both established and emerging LSTs. It achieves this by sourcing data from off-chain entities such as centralized exchanges (CEXes) and aggregators, as well as on-chain platforms like decentralized exchanges (DEXes). Notably, RedStone's compatibility with all EVM-aligned chains positions Gravita advantageously for potential cross-chain expansions in the future. \
+RedStone serves as a sophisticated Modular Oracle, proficiently providing price feeds for both established and emerging LSTs. It achieves this by sourcing data from off-chain entities such as centralized exchanges (CEXes) and aggregators, as well as on-chain platforms like decentralized exchanges (DEXes). Notably, RedStone's compatibility with all EVM-aligned chains positions Levra advantageously for potential cross-chain expansions in the future. \
 \
 For a comprehensive understanding, please refer to the [RedStone Documentation.](https://docs.redstone.finance/)

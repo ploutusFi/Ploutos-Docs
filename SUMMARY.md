@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 
-## How does Gravita work?
+## How does Levra work?
 
 * [General](how-does-gravita-work/general.md)
 * [Token Overview](how-does-gravita-work/token-overview.md)
@@ -22,20 +22,20 @@
 
 * [Overview](constellation/overview.md)
 * [Delete the Deposit Pool Campaign](constellation/delete-the-deposit-pool-campaign.md)
-* [Gravita's Role & Contribution](constellation/gravitas-role-and-contribution.md)
+* [Levra's Role & Contribution](constellation/gravitas-role-and-contribution.md)
 * [Ethos](constellation/ethos.md)
 
 ## Liquidity Mining Programs
 
 * [Arbitrum LTIPP - goARB](liquidity-mining-programs/arbitrum-ltipp-goarb.md)
 
-## About Gravita Protocol
+## About Levra Protocol
 
 * [Audits](about-gravita-protocol/audits.md)
 * [Smart Contracts](about-gravita-protocol/smart-contracts.md)
 * [Partnerships and Integrations](about-gravita-protocol/partnerships-and-integrations.md)
 * [Marketing Assets](about-gravita-protocol/marketing-assets.md)
-* [Gravita Ascend](about-gravita-protocol/gravita-ascend.md)
+* [Levra Ascend](about-gravita-protocol/gravita-ascend.md)
 
 ## Disclaimers
 
