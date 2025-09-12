@@ -66,12 +66,15 @@ You can find here and on our front-end interface the maximum amount of USDL that
 
 _**REMINDER: while Levra Protocol is by design a multi-collateral lender, you can only borrow against a single LST for each Vessel that you open. If you wish to borrow USDL using different tokens, you will need to open a separate vessel each time.**_
 
-| Token  | Maximum LTV                    |
-| ------ | ------------------------------ |
-| WETH   | 90%                            |
-| rETH   | 85%                            |
-| wstETH | 85%                            |
-| bLUSD  | 99% (with no liquidation risk) |
+| Token  | Minimum Collateral Ratio (MCR) | Maximum LTV |
+|--------|--------------------------------|-------------|
+| WETH   | 1.2                            | 83%         |
+| sAVAX  | 1.25                           | 80%         |
+| WETH.e | 1.2                            | 83%         |
+| GHO    | 1.2                            | 83%         |
+| USDC   | 1.1                            | 90%         |
+| USDT   | 1.1                            | 90%         |
+| AUSD   | 1.3                            | 76%         |
 
 In addition mint caps are in place to ensure protocol stability. These numbers will be reviewed as the protocol grows and will be available [on the Levra Protocol website.](https://www.levra.money/)
 
