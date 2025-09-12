@@ -1,3 +1,13 @@
+# Levra Protocol Documentation
+
+> ⚠️ **Levra is a 100% fork of [Gravita Protocol](https://docs.gravitaprotocol.com/).**
+>
+> The only changes introduced are:
+> - The DebtToken symbol (**GRAI → USDL**)
+> - The DebtToken name (**Levra Debt Token**)
+>
+> All other mechanics, smart contracts, and architecture remain fully identical to the original Gravita Protocol.
+
 # Overview
 
 **Please review our Disclaimer and Terms of Service before using the Levra Protocol or interacting with USDL.**
@@ -19,3 +29,9 @@ Borrowers mint USDL against the value of their collateral. It can then be used i
 In order to reduce the volatility of USDL, a Liquity-like redemption mechanism is enabled. \
 \
 Levra Protocol is non-custodial, with the goal of becoming more ossified and governance-minimised.
+
+
+## Attribution / Credits
+
+Levra is based entirely on the open-source work of the **[Gravita Protocol](https://docs.gravitaprotocol.com/)** team.  
+We acknowledge and thank the Gravita contributors for their development, documentation, and research efforts that made this fork possible.
