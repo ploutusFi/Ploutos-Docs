@@ -14,7 +14,7 @@
 
 Levra Protocol is a decentralised borrowing protocol built on Ethereum that provides users with interest-free loans secured by both Liquid Staking Tokens (LST) and a Stability Pool (SP).\
 \
-Loans are issued in the form of minting **USDL**, a token with similar volatility dampening mechanism as LUSD, and can be _up to_ 90% of the value of a user's collateral (99% in the case of bLUSD).&#x20;
+Loans are issued in the form of minting **USDL**, a token with similar volatility dampening mechanism as LUSD, and can be _up to_ 90% of the value of a user's collateral.&#x20;
 
 You can find more information on the maximum LTV ratio of the supported assets in our [Vessels and Collateral page.](how-does-gravita-work/vessels-and-collateral.md)\
 \
