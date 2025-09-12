@@ -73,7 +73,7 @@ _**REMINDER: while Levra Protocol is by design a multi-collateral lender, you ca
 | wstETH | 85%                            |
 | bLUSD  | 99% (with no liquidation risk) |
 
-In addition mint caps are in place to ensure protocol stability. These numbers will be reviewed as the protocol grows and will be available [on the Levra Protocol website.](https://www.gravitaprotocol.com/)
+In addition mint caps are in place to ensure protocol stability. These numbers will be reviewed as the protocol grows and will be available [on the Levra Protocol website.](https://www.levra.money/)
 
 WETH liquidations will always be total liquidations.&#x20;
 
