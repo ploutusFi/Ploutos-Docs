@@ -18,7 +18,8 @@
 * [Audits](about-gravita-protocol/audits.md)
 * [Smart Contracts](about-gravita-protocol/smart-contracts.md)
 * [Partnerships and Integrations](about-gravita-protocol/partnerships-and-integrations.md)
-* [Marketing Assets](about-gravita-protocol/marketing-assets.md)
+
+[//]: # (* [Marketing Assets]&#40;about-gravita-protocol/marketing-assets.md&#41;)
 
 ## Disclaimers
 
