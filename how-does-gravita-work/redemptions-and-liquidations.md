@@ -6,8 +6,6 @@ Redemption is a mechanism that makes a user reduce exposure to the collateral of
 \
 Liquidation happens when a Vessel is fully closed after it goes above the maximum LTV required by the protocol, forcing the user to lose the entire balance of collateral. However, after a liquidation happens, the user does not need anymore to pay back their debt.
 
-It is important to note that bLUSD Vessels cannot be liquidated or redeemed against. Liquidations and redemptions against bLUSD are not possible at a protocol level. As we work towards improving the bLUSD price feed (currently fixed at $ 1 USD), we care about iterating that bLUSD in Levra Protocol is exempt from liquidations, redemptions and recovery mode.
-
 ## Redemptions
 
 Redemptions allow USDL holders to directly redeem their USDL for collateral from the vessels with the hiughest LTV in the system. This mechanism ensures that USDL maintains a price close to the redemption parameter.
