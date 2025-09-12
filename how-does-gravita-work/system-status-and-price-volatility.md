@@ -12,12 +12,15 @@ Levra Protocol displays on its front-end a System Status. The value displayed is
 
 On Levra Protocol, despite the existence of a common Stability Pool, **each collateral type has an independent System Status.** As a consequence, a specific collateral type can be in Recovery Mode while others aren't.&#x20;
 
-| Collateral Type | Maximum System LTV                                                             |
-| --------------- | ------------------------------------------------------------------------------ |
-| WETH            | ≈ 71%                                                                          |
-| rETH            | ≈ 71%                                                                          |
-| wstETH          | ≈ 71%                                                                          |
-| bLUSD           | Liquidations and redemptions against bLUSD are not enabled on Levra Protocol |
+| Token  | Critical Collateral Ratio (CCR) | Maximum System LTV |
+|--------|---------------------------------|--------------------|
+| WETH   | 1.4                             | 71%                |
+| sAVAX  | 1.5                             | 66%                |
+| WETH.e | 1.5                             | 66%                |
+| GHO    | 1.3                             | 77%                |
+| USDC   | 1.2                             | 83%                |
+| USDT   | 1.2                             | 83%                |
+| AUSD   | 1.5                             | 66%                |
 
 <mark style="color:yellow;">**In order to better give users an understanding of how Levra Protocol works, the following examples will be only be made using WETH as a collateral type.**</mark>
 
