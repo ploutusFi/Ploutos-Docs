@@ -12,8 +12,6 @@ When USDL exchange rate exceeds that level, borrowers can make an instant profit
 
 If 1 USDL trades at $1.20 for example, you can lock up $2200 worth of the LST of your choice, take out a loan of 2000 USDL and sell it for $2400. No matter if your loans gets liquidated or not, you have made an arbitrage gain of $200.
 
-Since also bLUSD is a supported collateral asset against which users can borrow at up top 99% TVL, USDL hard ceiling price could also theoretically be considered $ 1.01. However this specific collateral asset will have mint caps in place to avoid excessive sell pressure on USDL.
-
 ### Hard price floor
 
 The ability to redeem USDL for collateral creates a hard price floor, below which arbitrage opportunities become profitable.&#x20;
