@@ -5,8 +5,6 @@
 Levra enables users to borrow funds by using multiple forms of yield-generating collateral, including LSTs and yield-amplified or/and auto-compounding stable-coins like bLUSD.\
 \
 To get started users can deposit their collateral into the Levra protocol and receive USDL token in return. The amount of USDL they can borrow depends on the value of their collateral.\
-\
-In order to preserve the safety of the protocol and the core value propositions of USDL and GRVT, only non-censorable assets can be supported on the main version of Levra Protocol.&#x20;
 
 ## What are the key benefits of Levra?
 
