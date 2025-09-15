@@ -20,7 +20,10 @@
 * [Partnerships and Integrations](about-levra-protocol/partnerships-and-integrations.md)
 * [Marketing Assets](about-levra-protocol/marketing-assets.md)
 
-[//]: # (* [Marketing Assets]&#40;about-gravita-protocol/marketing-assets.md&#41;)
+## About Levra Lending
+
+* [Overview](about-levra-lending/overview.md)
+* [Contracts](about-levra-lending/contracts.md)
 
 ## Disclaimers
 
