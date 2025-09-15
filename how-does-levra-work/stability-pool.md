@@ -36,7 +36,7 @@ Anybody can liquidate a Vessel as soon as it goes above the maximum LTV defined 
 \
 The initiator receives a gas compensation `(200 USDL + 0.5% of the Vessel's collateral)` as reward for this service. This mechanism is in place to avoid excessive exposure of the liquidator to the gas costs that are incurred by performing this on-chain operation.
 
-Our UI currently does not offer the possibility to liquidate Vessels. Please check our [Contract Addresses](broken-reference) if you wish to implement a service for liquidating Vessels.
+Our UI currently does not offer the possibility to liquidate Vessels. Please check our [Contract Addresses](..\about-levra-protocol\smart-contracts.md) if you wish to implement a service for liquidating Vessels.
 
 The 200 USDL is funded by a Liquidation Reserve that users deposit into when opening their Vessel. The 0.5% part comes from the liquidated collateral, slightly reducing the liquidation gain for Stability Providers.
 
