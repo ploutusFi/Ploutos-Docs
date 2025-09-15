@@ -4,4 +4,4 @@ Levra Lending is a fork of Aave v3, a leading decentralized finance (DeFi) proto
 
 For more detailed information about the original Aave v3 protocol, please refer to the official Aave v3 documentation:
 
-- [Aave v3 Documentation](https://docs.aave.com/developers/protocol-v3)
+- [Aave v3 Documentation](https://aave.com/docs/developers/aave-v3/overview)
