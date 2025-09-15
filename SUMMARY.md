@@ -18,6 +18,7 @@
 * [Audits](about-levra-protocol/audits.md)
 * [Smart Contracts](about-levra-protocol/smart-contracts.md)
 * [Partnerships and Integrations](about-levra-protocol/partnerships-and-integrations.md)
+* [Marketing Assets](about-levra-protocol/marketing-assets.md)
 
 [//]: # (* [Marketing Assets]&#40;about-gravita-protocol/marketing-assets.md&#41;)
 

@@ -1,14 +1,10 @@
 # Marketing Assets
 
-<figure><img src="../.gitbook/assets/Gravita_Logo_White-01.png" alt=""><figcaption><p>Gravita Protocol Main Logo</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Levra-logo-text.png" alt=""><figcaption><p>Levra Protocol Main Logo</p></figcaption></figure>
 
-Levra Dark Loko
+Levra's Logo
 
-<figure><img src="../.gitbook/assets/Gravita_Logo_Dark-01.png" alt=""><figcaption></figcaption></figure>
-
-Levra's G
-
-![](<../.gitbook/assets/G transparent Background.png>)
+![](<../.gitbook/assets/Levra-logo.png>)
 
 USDL Token Logo
 
