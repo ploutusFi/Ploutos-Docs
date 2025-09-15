@@ -16,9 +16,9 @@ Levra Protocol is a decentralised borrowing protocol built on Ethereum that prov
 \
 Loans are issued in the form of minting **USDL**, a token with similar volatility dampening mechanism as LUSD, and can be _up to_ 90% of the value of a user's collateral.&#x20;
 
-You can find more information on the maximum LTV ratio of the supported assets in our [Vessels and Collateral page.](how-does-gravita-work/vessels-and-collateral.md)\
+You can find more information on the maximum LTV ratio of the supported assets in our [Vessels and Collateral page.](how-does-levra-work/vessels-and-collateral.md)\
 \
-Levra Protocol builds off [Liquity's economic model](https://github.com/liquity/dev) to ensure efficient borrowing and timely liquidations. A one-off borrowing fee is charged upfront on each new debt (or debt increase). In order to incentivize short-term borrowing, the fee is refunded if the user repays his debt before the expiry of six months (\~182 days), pro rata for the time elapsed, but the minimum fee corresponds to one week worth of interest. You will find more information on the [Fee Model](how-does-gravita-work/fee-model.md) page.\
+Levra Protocol builds off [Liquity's economic model](https://github.com/liquity/dev) to ensure efficient borrowing and timely liquidations. A one-off borrowing fee is charged upfront on each new debt (or debt increase). In order to incentivize short-term borrowing, the fee is refunded if the user repays his debt before the expiry of six months (\~182 days), pro rata for the time elapsed, but the minimum fee corresponds to one week worth of interest. You will find more information on the [Fee Model](how-does-levra-work/fee-model.md) page.\
 \
 Levra has an unique multi-collateral design in which each position has a single collateral type, but they are all linked to the same stability pool:&#x20;
 
