@@ -20,7 +20,7 @@ On Levra Protocol, despite the existence of a common Stability Pool, **each coll
 | GHO    | 1.3                             | 77%                |
 | USDC   | 1.2                             | 83%                |
 | USDT   | 1.2                             | 83%                |
-| AUSD   | 1.5                             | 66%                |
+| AUSD   | 1.3                             | 77%                |
 
 <mark style="color:yellow;">**In order to better give users an understanding of how Levra Protocol works, the following examples will be only be made using WETH as a collateral type.**</mark>
 
