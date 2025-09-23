@@ -4,9 +4,7 @@ Below is the list of key contract addresses used in Ploutos Lending:
 
 ### Base
 ```
-┌────────────────────────────────────┬──────────────────────────────────────────────┐
 │ (index)                            │ address                                      │
-├────────────────────────────────────┼──────────────────────────────────────────────┤
 │ BorrowLogic                        │ '0x21bEdA77C38Cb416Eb40d6579c572AA35B6dB80b' │
 │ BridgeLogic                        │ '0x6cBd400558a3e054F5134513ee631f8a42B3c8cE' │
 │ ConfiguratorLogic                  │ '0x6BC6cF7C2380f5368Dd63B8F5daf19217133c78C' │
@@ -63,14 +61,11 @@ Below is the list of key contract addresses used in Ploutos Lending:
 │ ParaSwapLiquiditySwapAdapter       │ '0xE03a8178FF6Ce1Dd76ebFaaa17349dD68C5e2CFA' │
 │ ParaSwapRepayAdapter               │ '0x1a8cfc7940C80067796843bD1475Bc0e45d61C2b' │
 │ ParaSwapWithdrawSwapAdapter        │ '0x7e7Db8262feeB4522B6870dA9bd0d51a0081cC49' │
-└────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
 ### Arbitrum
 ```
-┌────────────────────────────────────┬──────────────────────────────────────────────┐
 │ (index)                            │ address                                      │
-├────────────────────────────────────┼──────────────────────────────────────────────┤
 │ ACLManager-Arbitrum                │ '0xEC910d10a1A03482d182768583c68aAC3A6B9f29' │
 │ AToken-Arbitrum                    │ '0x43E2F43Fb3a35Be99cE8855a91a83af0Fd67a065' │
 │ AaveOracle-Arbitrum                │ '0xE5C7EAe31Ac11bdF9e1c3994F359Ee8185dE61e2' │
@@ -124,14 +119,11 @@ Below is the list of key contract addresses used in Ploutos Lending:
 │ WSTETH-VariableDebtToken-Arbitrum  │ '0xe0641e6F42fE3945DEadcb7A413E66beEe127839' │
 │ WalletBalanceProvider              │ '0xED2D8cB93DbDf45724926B7572902535D45f4ECE' │
 │ WrappedTokenGatewayV3              │ '0xF41dAbCdc7a3a5d81a7346ae667Fa583BdaADea3' │
-└────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
 ### Polygon
 ```
-┌────────────────────────────────────┬──────────────────────────────────────────────┐
 │ (index)                            │ address                                      │
-├────────────────────────────────────┼──────────────────────────────────────────────┤
 │ PoolAddressesProviderRegistry      │ '0xA4753a119B2272047bef65850898eb603283Aae9' │
 │ SupplyLogic                        │ '0x6f795e75b8127Ce10410F1ab510Fd1e927da9F21' │
 │ BorrowLogic                        │ '0x0F65a7fBCb69074cF8BE8De1E01Ef573da34bD59' │
@@ -186,14 +178,11 @@ Below is the list of key contract addresses used in Ploutos Lending:
 │ ParaSwapLiquiditySwapAdapter       │ '0xA9B0D9A508F66d39f430D6B29D3d2Ecb973E2258' │
 │ ParaSwapRepayAdapter               │ '0x1B3aD8173A33F25c46Bac07A4580B439C483CD5c' │
 │ ParaSwapWithdrawSwapAdapter        │ '0x042A714a9A4D0d6226982D40430638d30d2A142a' │
-└────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
 ### Katana
 ```
-┌────────────────────────────────────┬──────────────────────────────────────────────┐
 │ (index)                            │ address                                      │
-├────────────────────────────────────┼──────────────────────────────────────────────┤
 │ PoolAddressesProviderRegistry      │ '0x6f795e75b8127Ce10410F1ab510Fd1e927da9F21' │
 │ SupplyLogic                        │ '0xdA438F45470B924Bc944aB156406F7868E72C5F3' │
 │ BorrowLogic                        │ '0xEFCeF2990BF98643c1f6271568D94f28FCb9F4d3' │
@@ -251,5 +240,4 @@ Below is the list of key contract addresses used in Ploutos Lending:
 │ WalletBalanceProvider              │ '0xA9B0D9A508F66d39f430D6B29D3d2Ecb973E2258' │
 │ UiIncentiveDataProviderV3          │ '0x1B3aD8173A33F25c46Bac07A4580B439C483CD5c' │
 │ UiPoolDataProviderV3               │ '0x042A714a9A4D0d6226982D40430638d30d2A142a' │
-└────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
