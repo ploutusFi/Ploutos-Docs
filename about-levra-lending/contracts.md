@@ -1,69 +1,255 @@
 # Contracts
 
-Below is the list of key contract addresses used in Levra Lending:
+Below is the list of key contract addresses used in Ploutos Lending:
 
-| Contract Name                     | Address                                     |
-|-----------------------------------|---------------------------------------------|
-| PoolAddressesProviderRegistry     | 0x627486b665B3C16da93881C8150e0893c5961Dc6  |
-| SupplyLogic                       | 0x1F29AfbF1d124ee95CF1eBC04F7FF0219870A906  |
-| BorrowLogic                       | 0x6A9b632010226F9bBbf2B6cb8B6990bE3F90cb0e  |
-| LiquidationLogic                  | 0x9DCE7A180C34203fEE8cE8CA62f244FeeB67BD30  |
-| EModeLogic                        | 0x4DC446e349bDA9516033E11D63f1851d6B5Fd492  |
-| BridgeLogic                       | 0x30808b6684fc190EbFEC1dD166ba9D5F40b85C01  |
-| ConfiguratorLogic                 | 0xB3DC15D5375Cb62Fa85b6f57F567beABD9275684  |
-| FlashLoanLogic                    | 0xDc796Ae8145E1DdB5f683590674A27FBC8995294  |
-| PoolLogic                         | 0xb040baA0df1dD0d3dCb4241C529E896053823906  |
-| TreasuryProxy                     | 0xB1192FD9C00A8E8D354322655ed115adD9665918  |
-| Treasury-Controller               | 0xF4c6c109F0D974BF7C771d0cAC1115Ecf999bC6F  |
-| Treasury-Implementation           | 0xaE5Cd018A48b833eBE8d50A504926a154f55221A  |
-| PoolAddressesProvider-Avalanche   | 0xef56435131fCFcbcddf00EF4663D564cd1823980  |
-| PoolDataProvider-Avalanche        | 0x143ebe89A974f331Ce7809C559B46fE62b2383BD  |
-| Pool-Implementation               | 0x7940d1641E14ce37F3D3Cf21eE2795B420Ea0c05  |
-| PoolConfigurator-Implementation   | 0x621E752e5720a1D2735Bcec3E1F1e2515068b927  |
-| ReservesSetupHelper               | 0x78B5b6412DBBC611Ae28eE27d3FA2b2a3194859e  |
-| ACLManager-Avalanche              | 0xA34Df644B9E3d4A43548784A1267Cbe3DAf20B37  |
-| AaveOracle-Avalanche              | 0x5E660Deb9F5122bc185681b194a442590BcFcb64  |
-| Pool-Proxy-Avalanche              | 0xf532b70118f050c0C817729A9BDb9eC6b779A792  |
-| PoolConfigurator-Proxy-Avalanche  | 0xA6597084C0e4F6a75157E661d405DC3e5A845467  |
-| EmissionManager                   | 0xe7c4E4D1A9040a0001179e471A935118e9FE82d5  |
-| IncentivesV2-Implementation       | 0xa92ABE9C2C309e941bd1083f05c1aBf4dFAEF1c8  |
-| IncentivesProxy                   | 0xCBc5372FD0F86271a3492e85adD63c529613cB85  |
-| AToken-Avalanche                  | 0xFE29aad989563bD7dD3B780Ba7dACaF2c8E686AE  |
-| DelegationAwareAToken-Avalanche   | 0xc6a041E1e00A361E686fca5154E553Fb5EEf985E  |
-| StableDebtToken-Avalanche         | 0x14aB1bEE3d093778731a9356026952396852FC79  |
-| VariableDebtToken-Avalanche       | 0xA9B0D9A508F66d39f430D6B29D3d2Ecb973E2258  |
-| ReserveStrategy-rateStrategyBase  | 0x042A714a9A4D0d6226982D40430638d30d2A142a  |
-| USDC-AToken-Avalanche             | 0xc6ce48565b1C0D33eD8090545E78EBD3412b9498  |
-| USDC-VariableDebtToken-Avalanche  | 0x74e681968b30b5d08f9ECc57698537f7B95E0405  |
-| USDC-StableDebtToken-Avalanche    | 0x3BCf0C87AD581bF1991D6f2850C89da3eAC27aC1  |
-| WETH-AToken-Avalanche             | 0x9FaD4Ca8C39d7793d9c7714e9Ed1D7f289fa3440  |
-| WETH-VariableDebtToken-Avalanche  | 0x0C9E6F5A348eE0EC746dE44c5Df924a59926abB7  |
-| WETH-StableDebtToken-Avalanche    | 0x6c0e1fcD661D86a46072b45F30EeFC420eEc0760  |
-| USDT-AToken-Avalanche             | 0xEb2F5Cfc41c992577D0A0944EEB83dE36df8a3e4  |
-| USDT-VariableDebtToken-Avalanche  | 0x342c2BdDB3C7D0db90CbDc2060414DA89657bee9  |
-| USDT-StableDebtToken-Avalanche    | 0x71652A2FB043AFE09222fFd89316D615a2095bCe  |
-| WAVAX-AToken-Avalanche            | 0x1dA754e24701caEf1cb510d73C2434d178a541Eb  |
-| WAVAX-VariableDebtToken-Avalanche | 0x1d0996D11d61aa40661b621280456B1F84Cb4A0C  |
-| WAVAX-StableDebtToken-Avalanche   | 0xA22ffA7beDb11e6cA660161C174636d78C3B1D6d  |
-| sAVAX-AToken-Avalanche            | 0x6cb7113d33699745A7FF307c315fdDB44A62FB72  |
-| sAVAX-VariableDebtToken-Avalanche | 0x77AFC580731B5B10a15231395FFFdec09a4a626F  |
-| sAVAX-StableDebtToken-Avalanche   | 0x52e75185a129Af1d9139B1cb115340e75c73B7a7  |
-| GHO-AToken-Avalanche              | 0xA47F946A15c9C72cE523883AaC392820625719Ac  |
-| GHO-VariableDebtToken-Avalanche   | 0x86222D422C1ffb2BE949988a761753D885cF1A32  |
-| GHO-StableDebtToken-Avalanche     | 0xDEEc908c3a4fb77a814D1C0aE1686CeB11D8CDD6  |
-| AUSD-AToken-Avalanche             | 0x6875e2C39C334e2e1fc765a2b985980412585874  |
-| AUSD-VariableDebtToken-Avalanche  | 0xBb0234D5677a7344A747a7b58C432e56D9490130  |
-| AUSD-StableDebtToken-Avalanche    | 0x494aD6E0F2439996b1F2Aaa885dD48a3b16A6522  |
-| WrappedTokenGatewayV3             | 0x6d0b24F560C5Fb08cC3C5E081A0DFD690a22eFcd  |
-| WalletBalanceProvider             | 0x6BAd48Bb81b24FED060527893931b3B4062BFf48  |
-| UiIncentiveDataProviderV3         | 0x4ab6703a3Ce771b7cE94e3C13265446d49e92c48  |
-| UiPoolDataProviderV3              | 0x73A9B8166dEEab70815e3e57Cc6B64De991D5Efc  |
-| ParaSwapLiquiditySwapAdapter      | 0xb98d1C7575b4b1c13567aB2d1C48F0355E38d766  |
-| ParaSwapRepayAdapter              | 0x62f171b8c4F2C2C66018de625C87Fa8Bc001Adad  |
-| ParaSwapWithdrawSwapAdapter       | 0x822C592C039e49F8A88B72eeDd37cC7F324f8D45  |
+### Base
+```
+┌────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index)                            │ address                                      │
+├────────────────────────────────────┼──────────────────────────────────────────────┤
+│ BorrowLogic                        │ '0x21bEdA77C38Cb416Eb40d6579c572AA35B6dB80b' │
+│ BridgeLogic                        │ '0x6cBd400558a3e054F5134513ee631f8a42B3c8cE' │
+│ ConfiguratorLogic                  │ '0x6BC6cF7C2380f5368Dd63B8F5daf19217133c78C' │
+│ EModeLogic                         │ '0x539591a70d7dde20d7Cf34c3C8158a08342D9fd4' │
+│ FlashLoanLogic                     │ '0x66619e4524B323A42BBfa14d28edDB4472929eb3' │
+│ LiquidationLogic                   │ '0x3b334d7FCaB25B9a22291F9803E839E420ED2571' │
+│ PoolAddressesProviderRegistry      │ '0x62f171b8c4F2C2C66018de625C87Fa8Bc001Adad' │
+│ PoolLogic                          │ '0x636B19cC688b1e670AFd71B0da83fc32DC77D483' │
+│ SupplyLogic                        │ '0xde95DfC7261E134B27b76b6f2f9c691d677914E7' │
+│ TreasuryProxy                      │ '0xB5EB7E9dDe0c299053fbB070dc3aA3f6D67B6Dc8' │
+│ Treasury-Controller                │ '0x92ba74a2b130a7267e3B4e7b11b0E8b6884b56fD' │
+│ Treasury-Implementation            │ '0xb65cbcfC429eaFd08A77df9f0279E312531B72cb' │
+│ PoolAddressesProvider-Base         │ '0x74E23DA16F7AB9F3229B949A5D393B46Ac2245c5' │
+│ PoolDataProvider-Base              │ '0x7dcb86dC49543E14A98F80597696fe5f444f58bC' │
+│ CalldataLogic                      │ '0x64D54245422431e35361EbC5b3758cA5b8a186CB' │
+│ L2Pool-Implementation              │ '0xb2e77d04473e8C439E59F63c266bBcc33B9547a6' │
+│ PoolConfigurator-Implementation    │ '0xB6Ba12D38B08d65E3ac8a231fFDf3AB2cFcEe37C' │
+│ ReservesSetupHelper                │ '0x473E0D08C3945e60AE83B8870eB4b98fB6bE50bd' │
+│ ACLManager-Base                    │ '0x42a05f6e2773B61A856a52F37b0d65c8a827b3Fd' │
+│ AaveOracle-Base                    │ '0x2945b2D96a5Bfcb8481Bd9292b9b3878F2a3bd97' │
+│ Pool-Proxy-Base                    │ '0xf072795653316fd7Fb15b2e4fF4e273385986ac2' │
+│ PoolConfigurator-Proxy-Base        │ '0x57B0936e75b363Df5E6C5d9a2bFaf30c7A97654f' │
+│ L2Encoder                          │ '0x793b0F5b9a458B36391bb720F05290fdE61b0e48' │
+│ EmissionManager                    │ '0xeB35EA6008B4204Dd31686d3050a1F779B29b058' │
+│ IncentivesV2-Implementation        │ '0xdCe66ADE53a2D96F576eD8eF6577ab36D20fa54b' │
+│ IncentivesProxy                    │ '0x08507Fb7391094a7bD1D281cB136dEC6E2e12634' │
+│ AToken-Base                        │ '0x1A2AD731798FF05eE5E7E814b742c77e6A3BCa33' │
+│ DelegationAwareAToken-Base         │ '0x17803C0b7f78F82Dc3502d9972e9481fb59D4e2f' │
+│ StableDebtToken-Base               │ '0xc8A7E52dfEaa07Df626966D7b2b955238e76968c' │
+│ VariableDebtToken-Base             │ '0xc6bD4ebF518Aa80e757b88F84803754fC63C2916' │
+│ ReserveStrategy-rateStrategyETH    │ '0x9C48A6D3e859ab124A8873D73b2678354D0B4c0A' │
+│ ReserveStrategy-rateStrategyLST    │ '0x7C62478CDF5f3f31E7C314E329c750096D2D96d0' │
+│ ReserveStrategy-rateStrategyBTC    │ '0x9BCf870c36FdAA4dc79aacC5374C6D7265c3B9eF' │
+│ ReserveStrategy-rateStrategyStable │ '0xCCa4c18190F9AD7DEe8E409cA1b5e7D3BD6345Be' │
+│ WETH-AToken-Base                   │ '0xb556905C758c737daef32f8fFE25CE5896733d6A' │
+│ WETH-VariableDebtToken-Base        │ '0xF933866DcB0C4782E1fDCea7872aCbf05Aa9000B' │
+│ WETH-StableDebtToken-Base          │ '0x718Ac969a5fDD068d210B21BAEe6CB753d366909' │
+│ USDC-AToken-Base                   │ '0x918c4Cb4D7bC7015dD36fFECAe05A4e53266B6b5' │
+│ USDC-VariableDebtToken-Base        │ '0x9fA5dAb651f9D3dd3B46a7204eB03F82E72A8e15' │
+│ USDC-StableDebtToken-Base          │ '0x9308c036fA57d2bAE609E30320E716E65bDa5180' │
+│ CBBTC-AToken-Base                  │ '0xF0069393EC4bB369518b95aBa985035d6b01FB1D' │
+│ CBBTC-VariableDebtToken-Base       │ '0xcc6565D90012874bdeF467cd562a3b1F2f03D98C' │
+│ CBBTC-StableDebtToken-Base         │ '0xE6b4269524Ead5275841C0976CE94D550BD20cda' │
+│ WSTETH-AToken-Base                 │ '0x252d5479bc6F7D93F5186106c7dEE4A58842d25a' │
+│ WSTETH-VariableDebtToken-Base      │ '0x427f14dC64Fb92E8a4Df78676E636D2b3F72eAdD' │
+│ WSTETH-StableDebtToken-Base        │ '0x25b775fD8b0c2b0AECA224568813E7F6f879f49e' │
+│ CBETH-AToken-Base                  │ '0x5E24C18180f0105720995E0651F136054E0B95e4' │
+│ CBETH-VariableDebtToken-Base       │ '0x9F452e3A8aA72984fBAb7401ac2069950Ad6EC18' │
+│ CBETH-StableDebtToken-Base         │ '0xF72783283f6Dc7CdcE753fDBb5bD46D81cBE98b6' │
+│ WrappedTokenGatewayV3              │ '0xD5662f0Ff4ABB90ca831Ff69862D634BaC7c5232' │
+│ WalletBalanceProvider              │ '0x7179599903edDb2963FB1FAabfa46cceC0756cF4' │
+│ UiIncentiveDataProviderV3          │ '0x6ccFf79a20814cBa2eD172e1Db29aAD775cbF837' │
+│ UiPoolDataProviderV3               │ '0x967B54FcDE9A665670aE9F7889f70F8e5Fb9A538' │
+│ ParaSwapLiquiditySwapAdapter       │ '0xE03a8178FF6Ce1Dd76ebFaaa17349dD68C5e2CFA' │
+│ ParaSwapRepayAdapter               │ '0x1a8cfc7940C80067796843bD1475Bc0e45d61C2b' │
+│ ParaSwapWithdrawSwapAdapter        │ '0x7e7Db8262feeB4522B6870dA9bd0d51a0081cC49' │
+└────────────────────────────────────┴──────────────────────────────────────────────┘
+```
 
-## sAVAX Oracle Adapter
+### Arbitrum
+```
+┌────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index)                            │ address                                      │
+├────────────────────────────────────┼──────────────────────────────────────────────┤
+│ ACLManager-Arbitrum                │ '0xEC910d10a1A03482d182768583c68aAC3A6B9f29' │
+│ AToken-Arbitrum                    │ '0x43E2F43Fb3a35Be99cE8855a91a83af0Fd67a065' │
+│ AaveOracle-Arbitrum                │ '0xE5C7EAe31Ac11bdF9e1c3994F359Ee8185dE61e2' │
+│ BorrowLogic                        │ '0x9A58938AfbF17C217eb16501CD3B2116C45E4617' │
+│ BridgeLogic                        │ '0x8CE6a7b94A011d7D0bbA416cf0C6dc7f72b480BE' │
+│ CalldataLogic                      │ '0xEFCeF2990BF98643c1f6271568D94f28FCb9F4d3' │
+│ ConfiguratorLogic                  │ '0x07b50419FF228453e5c4Ffb0671eBeC8bDC3f7D2' │
+│ DelegationAwareAToken-Arbitrum     │ '0xC28CE5a30528c59Ee9DC129E54A9C4513F63760E' │
+│ EModeLogic                         │ '0xD0bf78BAeCC660a0eaf036Ba75822Fbb0Fc8D1a4' │
+│ EmissionManager                    │ '0xDc796Ae8145E1DdB5f683590674A27FBC8995294' │
+│ FlashLoanLogic                     │ '0x86455856F58C1B291934173d370b6488a281a245' │
+│ IncentivesProxy                    │ '0x14D64D857EBDb2B4C51d5c83452cb624Acc47c2E' │
+│ IncentivesV2-Implementation        │ '0xb040baA0df1dD0d3dCb4241C529E896053823906' │
+│ L2Encoder                          │ '0x4DC446e349bDA9516033E11D63f1851d6B5Fd492' │
+│ L2Pool-Implementation              │ '0x429e14fCa77b0eC3FAf32a65d09Da97e67E82826' │
+│ LiquidationLogic                   │ '0xB519c521f8732523Fb75826265CE1B41b8a25c39' │
+│ ParaSwapLiquiditySwapAdapter       │ '0xE8D31e4e7d766e6d47C15f2Cf0671d4Fa714dd42' │
+│ ParaSwapRepayAdapter               │ '0xe7c4E4D1A9040a0001179e471A935118e9FE82d5' │
+│ ParaSwapWithdrawSwapAdapter        │ '0xa92ABE9C2C309e941bd1083f05c1aBf4dFAEF1c8' │
+│ Pool-Proxy-Arbitrum                │ '0xDdc98fF53945e334Ecca339b4DD8847b3769e8f0' │
+│ PoolAddressesProvider-Arbitrum     │ '0xA4753a119B2272047bef65850898eb603283Aae9' │
+│ PoolAddressesProviderRegistry      │ '0xaEe1F9b0ca49460838A49E5E9A0A02680222C5b3' │
+│ PoolConfigurator-Implementation    │ '0xeb89B0f0F711BE41BF4299971b55cF99277A88d8' │
+│ PoolConfigurator-Proxy-Arbitrum    │ '0x87c6f09FA2DFd99717bDEeDf19496970Ca84264d' │
+│ PoolDataProvider-Arbitrum          │ '0x0F65a7fBCb69074cF8BE8De1E01Ef573da34bD59' │
+│ PoolLogic                          │ '0x45618a7b80ADBb94df0FF3c0d29DF713cbe98ee3' │
+│ ReserveStrategy-rateStrategyBTC    │ '0x78B5b6412DBBC611Ae28eE27d3FA2b2a3194859e' │
+│ ReserveStrategy-rateStrategyETH    │ '0x621E752e5720a1D2735Bcec3E1F1e2515068b927' │
+│ ReserveStrategy-rateStrategyLST    │ '0x0A6449FE057306CDf832824745592E507e2f8997' │
+│ ReserveStrategy-rateStrategyStable │ '0x867Cbe835a15B3D5f330a47E64151f1d812ff012' │
+│ ReservesSetupHelper                │ '0xBf8F589313239Da1d7946a77D3478eC8A81F8005' │
+│ StableDebtToken-Arbitrum           │ '0x143ebe89A974f331Ce7809C559B46fE62b2383BD' │
+│ SupplyLogic                        │ '0x55e2C4420F2b0972c0A9FeeB90073318b8c246F6' │
+│ Treasury-Controller                │ '0x2EAf831C0bA0E6b0Feafe7584FB1eEae84b3AB0f' │
+│ Treasury-Implementation            │ '0x98cbdC59801c58F2CfeE51EAFa35A16Ca9abc56a' │
+│ TreasuryProxy                      │ '0xF951ad249532dbb8Dd18be4a158aAbEe3d43523E' │
+│ USDC-AToken-Arbitrum               │ '0xa9b9cCE44fe4150e87965bb31FB2b55D009812B1' │
+│ USDC-StableDebtToken-Arbitrum      │ '0x60307d2E6A76D1CEabc1adF74120EcBD24a1b0e4' │
+│ USDC-VariableDebtToken-Arbitrum    │ '0x22c80225456491ab9ac0e4E3fBEcf783D887038f' │
+│ USDT-AToken-Arbitrum               │ '0xB75a86dEedb9b4c95543D2dD0cc41CB641a28C24' │
+│ USDT-StableDebtToken-Arbitrum      │ '0x511Abf07b0c3C8D3c5a9B56088d709d7789F48dD' │
+│ USDT-VariableDebtToken-Arbitrum    │ '0xe1A82829bC672A5c336E48EC6898496466c80Ae3' │
+│ UiIncentiveDataProviderV3          │ '0x2cfB1546F468E552210f73c3E1f9941c149441a2' │
+│ UiPoolDataProviderV3               │ '0x7460971EE094f653553c1F02C85499E12Eb2e3c0' │
+│ VariableDebtToken-Arbitrum         │ '0x7940d1641E14ce37F3D3Cf21eE2795B420Ea0c05' │
+│ WETH-AToken-Arbitrum               │ '0x3FaA464dE86ca69863FF0ae029A7A0F0466B8fD9' │
+│ WETH-StableDebtToken-Arbitrum      │ '0x361161C34F8232E5E25C1a6f403DFeD4B2CC94df' │
+│ WETH-VariableDebtToken-Arbitrum    │ '0x3C35Dc6a7e6D05178FcE82F6dB7094FADed76400' │
+│ WSTETH-AToken-Arbitrum             │ '0x01d65Ded4C3c4F76Acd5EAE730320eBb4aF0E156' │
+│ WSTETH-StableDebtToken-Arbitrum    │ '0xE996E51328368B98f29bbc490B8464F22C190566' │
+│ WSTETH-VariableDebtToken-Arbitrum  │ '0xe0641e6F42fE3945DEadcb7A413E66beEe127839' │
+│ WalletBalanceProvider              │ '0xED2D8cB93DbDf45724926B7572902535D45f4ECE' │
+│ WrappedTokenGatewayV3              │ '0xF41dAbCdc7a3a5d81a7346ae667Fa583BdaADea3' │
+└────────────────────────────────────┴──────────────────────────────────────────────┘
+```
 
-The sAVAX Oracle Adapter is used for the sAVAX price feed.
+### Polygon
+```
+┌────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index)                            │ address                                      │
+├────────────────────────────────────┼──────────────────────────────────────────────┤
+│ PoolAddressesProviderRegistry      │ '0xA4753a119B2272047bef65850898eb603283Aae9' │
+│ SupplyLogic                        │ '0x6f795e75b8127Ce10410F1ab510Fd1e927da9F21' │
+│ BorrowLogic                        │ '0x0F65a7fBCb69074cF8BE8De1E01Ef573da34bD59' │
+│ LiquidationLogic                   │ '0xdA438F45470B924Bc944aB156406F7868E72C5F3' │
+│ EModeLogic                         │ '0xEFCeF2990BF98643c1f6271568D94f28FCb9F4d3' │
+│ BridgeLogic                        │ '0x429e14fCa77b0eC3FAf32a65d09Da97e67E82826' │
+│ ConfiguratorLogic                  │ '0x1A875c28610F0155D377bBD725cc59d055e2D192' │
+│ FlashLoanLogic                     │ '0xeb89B0f0F711BE41BF4299971b55cF99277A88d8' │
+│ PoolLogic                          │ '0xb86A207471b3B4EcD4e8237a9C5c45aDb1fd3bD6' │
+│ TreasuryProxy                      │ '0xBf8F589313239Da1d7946a77D3478eC8A81F8005' │
+│ Treasury-Controller                │ '0xFc8b0e825cAEBEc6D626f2827476747e193e78C7' │
+│ Treasury-Implementation            │ '0xEC910d10a1A03482d182768583c68aAC3A6B9f29' │
+│ PoolAddressesProvider-Polygon      │ '0x627486b665B3C16da93881C8150e0893c5961Dc6' │
+│ PoolDataProvider-Polygon           │ '0x6A9b632010226F9bBbf2B6cb8B6990bE3F90cb0e' │
+│ Pool-Implementation                │ '0x4DC446e349bDA9516033E11D63f1851d6B5Fd492' │
+│ PoolConfigurator-Implementation    │ '0xB3DC15D5375Cb62Fa85b6f57F567beABD9275684' │
+│ ReservesSetupHelper                │ '0xb040baA0df1dD0d3dCb4241C529E896053823906' │
+│ ACLManager-Polygon                 │ '0xF4c6c109F0D974BF7C771d0cAC1115Ecf999bC6F' │
+│ AaveOracle-Polygon                 │ '0xef56435131fCFcbcddf00EF4663D564cd1823980' │
+│ Pool-Proxy-Polygon                 │ '0x93BEF731821B2E534cCFBD330734d35de34fa418' │
+│ PoolConfigurator-Proxy-Polygon     │ '0x7ED627709F10ffA0dEc231D1cbEd88628dB8Aa56' │
+│ EmissionManager                    │ '0x4C7b9bca148Aa0d36703b7d57B6F5666C41d8c49' │
+│ IncentivesV2-Implementation        │ '0x621E752e5720a1D2735Bcec3E1F1e2515068b927' │
+│ IncentivesProxy                    │ '0xe76Dafb29D816E850AC71348eC2e9297251D6D57' │
+│ AToken-Polygon                     │ '0x5aD201bdA19bE82b875958940EeC5454462aA73D' │
+│ DelegationAwareAToken-Polygon      │ '0x92eef0D4Efdc4f7Ad94509Ae5208E0E83901aD57' │
+│ StableDebtToken-Polygon            │ '0xF41dAbCdc7a3a5d81a7346ae667Fa583BdaADea3' │
+│ VariableDebtToken-Polygon          │ '0x2cfB1546F468E552210f73c3E1f9941c149441a2' │
+│ ReserveStrategy-rateStrategyETH    │ '0xE8D31e4e7d766e6d47C15f2Cf0671d4Fa714dd42' │
+│ ReserveStrategy-rateStrategyLST    │ '0xe7c4E4D1A9040a0001179e471A935118e9FE82d5' │
+│ ReserveStrategy-rateStrategyBTC    │ '0xa92ABE9C2C309e941bd1083f05c1aBf4dFAEF1c8' │
+│ ReserveStrategy-rateStrategyStable │ '0x26aEa848E18eBDf450cF9Fc044ec3bbAB87092fd' │
+│ WBTC-AToken-Polygon                │ '0xD65E02984196BF99efd3Ea4C158cBF7FFA1Dba5f' │
+│ WBTC-VariableDebtToken-Polygon     │ '0x95565E858eE7016d5358eE797Ae64B3447353197' │
+│ WBTC-StableDebtToken-Polygon       │ '0x32C0c5267A1b483f8af755bFA0abcCC9D1b4B459' │
+│ WETH-AToken-Polygon                │ '0x5b7eCB01212740A1714283bf2b0Be7Cf90efE34b' │
+│ WETH-VariableDebtToken-Polygon     │ '0xe5Cb6eaE13C2e56ba44651394B9F200aa6d0b65C' │
+│ WETH-StableDebtToken-Polygon       │ '0x269088DF53513512105855Ac238D33044060344c' │
+│ USDT0-AToken-Polygon               │ '0x227b2c1F2751B0CC38751dc06F59162d6E7Fd766' │
+│ USDT0-VariableDebtToken-Polygon    │ '0x7dC6a31a859301E4F5A9f56A65B232631e58012f' │
+│ USDT0-StableDebtToken-Polygon      │ '0xba1aDC4B11Aaf7c31D1Fe6D4a8cC7CF48511AFe7' │
+│ USDC-AToken-Polygon                │ '0xE647db0B418929436f961AAcEbfFCfcfC8629bc4' │
+│ USDC-VariableDebtToken-Polygon     │ '0x331541B6bEA34732176C028f2ebf0d37cF0858BC' │
+│ USDC-StableDebtToken-Polygon       │ '0x187206a28164a406238eecD5719B4Cfe298dC3C8' │
+│ WSTETH-AToken-Polygon              │ '0x35830718Fa70E6e94A55c64EB566fA14FC0fA194' │
+│ WSTETH-VariableDebtToken-Polygon   │ '0x074bfeD0727C51C01Be8AEcF632592E865472DCf' │
+│ WSTETH-StableDebtToken-Polygon     │ '0x97553c2aF2a5b3486fb11C4428E5cEF542d2BDD6' │
+│ WrappedTokenGatewayV3              │ '0xc6a041E1e00A361E686fca5154E553Fb5EEf985E' │
+│ WalletBalanceProvider              │ '0x1973dc63B8412ff6e81Ff655594909b0e14fcEd6' │
+│ UiIncentiveDataProviderV3          │ '0x14aB1bEE3d093778731a9356026952396852FC79' │
+│ UiPoolDataProviderV3               │ '0x43B2a568b696de979919Ea706244E8FF3132c760' │
+│ ParaSwapLiquiditySwapAdapter       │ '0xA9B0D9A508F66d39f430D6B29D3d2Ecb973E2258' │
+│ ParaSwapRepayAdapter               │ '0x1B3aD8173A33F25c46Bac07A4580B439C483CD5c' │
+│ ParaSwapWithdrawSwapAdapter        │ '0x042A714a9A4D0d6226982D40430638d30d2A142a' │
+└────────────────────────────────────┴──────────────────────────────────────────────┘
+```
 
-- Contract address: [0x5dc38f66BB834aa9Fd7592593f0E5645e3d40F70](https://snowtrace.io/address/0x5dc38f66BB834aa9Fd7592593f0E5645e3d40F70/contract/43114/readContract?chainid=43114)
+### Katana
+```
+┌────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index)                            │ address                                      │
+├────────────────────────────────────┼──────────────────────────────────────────────┤
+│ PoolAddressesProviderRegistry      │ '0x6f795e75b8127Ce10410F1ab510Fd1e927da9F21' │
+│ SupplyLogic                        │ '0xdA438F45470B924Bc944aB156406F7868E72C5F3' │
+│ BorrowLogic                        │ '0xEFCeF2990BF98643c1f6271568D94f28FCb9F4d3' │
+│ LiquidationLogic                   │ '0x429e14fCa77b0eC3FAf32a65d09Da97e67E82826' │
+│ EModeLogic                         │ '0x1A875c28610F0155D377bBD725cc59d055e2D192' │
+│ BridgeLogic                        │ '0xeb89B0f0F711BE41BF4299971b55cF99277A88d8' │
+│ ConfiguratorLogic                  │ '0xb86A207471b3B4EcD4e8237a9C5c45aDb1fd3bD6' │
+│ FlashLoanLogic                     │ '0xBf8F589313239Da1d7946a77D3478eC8A81F8005' │
+│ PoolLogic                          │ '0xFc8b0e825cAEBEc6D626f2827476747e193e78C7' │
+│ TreasuryProxy                      │ '0xEC910d10a1A03482d182768583c68aAC3A6B9f29' │
+│ Treasury-Controller                │ '0x4e33651A9eA2947D5833511e3b4D05EC9CE70cA5' │
+│ Treasury-Implementation            │ '0xE7b6F5eEc0388Ca17Aa2362d803a7540e60fe7Ea' │
+│ PoolAddressesProvider-Katana       │ '0x1F29AfbF1d124ee95CF1eBC04F7FF0219870A906' │
+│ PoolDataProvider-Katana            │ '0x4DC446e349bDA9516033E11D63f1851d6B5Fd492' │
+│ Pool-Implementation                │ '0xB3DC15D5375Cb62Fa85b6f57F567beABD9275684' │
+│ PoolConfigurator-Implementation    │ '0xb040baA0df1dD0d3dCb4241C529E896053823906' │
+│ ReservesSetupHelper                │ '0xF4c6c109F0D974BF7C771d0cAC1115Ecf999bC6F' │
+│ ACLManager-Katana                  │ '0x69fc41e31f00CccB3Cb9a5E77EE6f436E57c77cE' │
+│ AaveOracle-Katana                  │ '0x753f6e9cEd76C662962ABe1cE687cA034F8d7F23' │
+│ Pool-Proxy-Katana                  │ '0x56f543bFF654193EcFb8fB9D5e7D1C30eDB69288' │
+│ PoolConfigurator-Proxy-Katana      │ '0x6827bc9e6A454F965986B40770e2CDDF269a7e73' │
+│ EmissionManager                    │ '0x0A6449FE057306CDf832824745592E507e2f8997' │
+│ IncentivesV2-Implementation        │ '0x78B5b6412DBBC611Ae28eE27d3FA2b2a3194859e' │
+│ IncentivesProxy                    │ '0xE504F49CE43Fd632bCC881083189fD10F766A805' │
+│ AToken-Katana                      │ '0x92eef0D4Efdc4f7Ad94509Ae5208E0E83901aD57' │
+│ DelegationAwareAToken-Katana       │ '0xF41dAbCdc7a3a5d81a7346ae667Fa583BdaADea3' │
+│ StableDebtToken-Katana             │ '0x2cfB1546F468E552210f73c3E1f9941c149441a2' │
+│ VariableDebtToken-Katana           │ '0xE8D31e4e7d766e6d47C15f2Cf0671d4Fa714dd42' │
+│ ReserveStrategy-rateStrategyETH    │ '0xa92ABE9C2C309e941bd1083f05c1aBf4dFAEF1c8' │
+│ ReserveStrategy-rateStrategyLST    │ '0x26aEa848E18eBDf450cF9Fc044ec3bbAB87092fd' │
+│ ReserveStrategy-rateStrategyBTC    │ '0x7f6C86475f6f7cd1918086b2D144D64c65476AC8' │
+│ ReserveStrategy-rateStrategyStable │ '0x195788779549C936154Ec59545265c6F7782FEe2' │
+│ weETH-AToken-Katana                │ '0xa34059252aCadF182613f7B8D5B41fabA503612A' │
+│ weETH-VariableDebtToken-Katana     │ '0x8e4b17ADB65D153bb8009134b2B2f5264b87d264' │
+│ weETH-StableDebtToken-Katana       │ '0x86a486E587D8BD98320985337AecFCEfF7dDbD97' │
+│ vbWBTC-AToken-Katana               │ '0xFe8cfF2418b859f1348577c01D7FaA3cCb8d9E03' │
+│ vbWBTC-VariableDebtToken-Katana    │ '0x2621c10591197099d79D3f88e7D3E9Ccd8072c9D' │
+│ vbWBTC-StableDebtToken-Katana      │ '0xCcFe3e06fd54a1c3e41dA7e98675EB5aB35ea681' │
+│ vbETH-AToken-Katana                │ '0x49f71B4d0Dd206ba7638D7F73e088CD11866b93B' │
+│ vbETH-VariableDebtToken-Katana     │ '0xB665B78b2033985A1d51522bEEc38ee56954e473' │
+│ vbETH-StableDebtToken-Katana       │ '0x3b5D53D66bA25a76C8641a523F0d36410D82330D' │
+│ yvvbUSDC-AToken-Katana             │ '0xA79e55079BCC75730102220959753610D29026Ca' │
+│ yvvbUSDC-VariableDebtToken-Katana  │ '0x1c92ee4227cE9Cd17a2290B8Fc4cF4D7Db719E68' │
+│ yvvbUSDC-StableDebtToken-Katana    │ '0xf800a256439720D2B0A9a77AD078Ed160b0e6173' │
+│ yvvbUSDT-AToken-Katana             │ '0xfD3a3B0bC4CD1DD151b429574139c8c9CFB71d59' │
+│ yvvbUSDT-VariableDebtToken-Katana  │ '0x28B5bae43371669F41F5564832281a2ebdF6432C' │
+│ yvvbUSDT-StableDebtToken-Katana    │ '0xbA62293a3F88218C2B9232D0D2fb80f5FbB85A01' │
+│ yvvbETH-AToken-Katana              │ '0xFF38C9893cbd126CD094D8A34E73f2F94B20cdbF' │
+│ yvvbETH-VariableDebtToken-Katana   │ '0x68BC21510716E733c7d7C9192D98EFCa915B92d7' │
+│ yvvbETH-StableDebtToken-Katana     │ '0x83d6136d0DC8D199d63a5C31e01083a820B5479B' │
+│ yvvbWBTC-AToken-Katana             │ '0xcC2CD62C675412D18626532D2eA89ed174335aeB' │
+│ yvvbWBTC-VariableDebtToken-Katana  │ '0x10588056c20ce21d879d7bEEE0ae91fFcAE1BAb2' │
+│ yvvbWBTC-StableDebtToken-Katana    │ '0x1e541B38De430A354d495596Eec7b35eE045087C' │
+│ WrappedTokenGatewayV3              │ '0x43B2a568b696de979919Ea706244E8FF3132c760' │
+│ WalletBalanceProvider              │ '0xA9B0D9A508F66d39f430D6B29D3d2Ecb973E2258' │
+│ UiIncentiveDataProviderV3          │ '0x1B3aD8173A33F25c46Bac07A4580B439C483CD5c' │
+│ UiPoolDataProviderV3               │ '0x042A714a9A4D0d6226982D40430638d30d2A142a' │
+└────────────────────────────────────┴──────────────────────────────────────────────┘
+```
