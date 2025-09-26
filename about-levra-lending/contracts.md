@@ -241,3 +241,59 @@ Below is the list of key contract addresses used in Ploutos Lending:
 │ UiIncentiveDataProviderV3          │ '0x1B3aD8173A33F25c46Bac07A4580B439C483CD5c' │
 │ UiPoolDataProviderV3               │ '0x042A714a9A4D0d6226982D40430638d30d2A142a' │
 ```
+
+### Plasma
+```
+│ (index)                            │ address                                      │
+│ PoolAddressesProviderRegistry      │ '0xbae7d835F035d8241b45eeE459dB9AEb6BE78DCA' │
+│ SupplyLogic                        │ '0x1dbc969ADDE6f01DdB3E2CCAAA0D83F360c2c584' │
+│ BorrowLogic                        │ '0xB45A5022E847415BcE6E4Bb7769Fea5fd84dbCFe' │
+│ LiquidationLogic                   │ '0xeB35EA6008B4204Dd31686d3050a1F779B29b058' │
+│ EModeLogic                         │ '0xdCe66ADE53a2D96F576eD8eF6577ab36D20fa54b' │
+│ BridgeLogic                        │ '0xA5217D7cceAa7DCdcc613E88DcFc98A0f145b384' │
+│ ConfiguratorLogic                  │ '0x4b9FC52eF108Be79F72c60F744Af518cAFeaaa17' │
+│ FlashLoanLogic                     │ '0x0c9e3Ed579C8bc7dbbC2C485FE3272EaB7f81520' │
+│ PoolLogic                          │ '0x4B15f42878565BdA6503fcfe1B2efA14ad0624de' │
+│ TreasuryProxy                      │ '0x1A2AD731798FF05eE5E7E814b742c77e6A3BCa33' │
+│ Treasury-Controller                │ '0xF2A9c6C590128383a701697ab3ACFb8DaC53bc95' │
+│ Treasury-Implementation            │ '0x17803C0b7f78F82Dc3502d9972e9481fb59D4e2f' │
+│ PoolAddressesProvider-Plasma       │ '0xA8afc59A383609ba654EdbB4a43dfcD9f8Ee808C' │
+│ PoolDataProvider-Plasma            │ '0x9C48A6D3e859ab124A8873D73b2678354D0B4c0A' │
+│ Pool-Implementation                │ '0x9BCf870c36FdAA4dc79aacC5374C6D7265c3B9eF' │
+│ PoolConfigurator-Implementation    │ '0xFefe8FA6bfd9aA93AAe009cedb0dae77f5D2B67F' │
+│ ReservesSetupHelper                │ '0x59ca4646386C2838D6d7FE74F133d05F82bB1b4C' │
+│ ACLManager-Plasma                  │ '0x913E0C9648D4980279084E6908b6B864267ECaE9' │
+│ AaveOracle-Plasma                  │ '0x967B54FcDE9A665670aE9F7889f70F8e5Fb9A538' │
+│ Pool-Proxy-Plasma                  │ '0x3775Df2Ac7fbf5ED636595aeFEd4544B9fA14C0a' │
+│ PoolConfigurator-Proxy-Plasma      │ '0x5B914e32Cf9311D64838bFf5945914F68958D2cC' │
+│ EmissionManager                    │ '0x937E8EC97e5EF19d3f8e2e57497Ead17Dd75c383' │
+│ IncentivesV2-Implementation        │ '0x5Ce016826fCc86Cc74B638Fd3E532f38D6aD3B68' │
+│ IncentivesProxy                    │ '0x1c5467B29457DDeE95F3B013a8bB79808E9d90bd' │
+│ AToken-Plasma                      │ '0x18b720fD07033b6363cE677C911202F21621F1eF' │
+│ DelegationAwareAToken-Plasma       │ '0xb9264eAd75E79AA037d2A4A4D51053767aF193D4' │
+│ StableDebtToken-Plasma             │ '0xcF13C0DcaA0343c03fcdAD77AE86d6F5aaEa16ac' │
+│ VariableDebtToken-Plasma           │ '0xc9063a602a869f0972997a6e2AdD1E452698C04a' │
+│ ReserveStrategy-rateStrategyETH    │ '0x1175C87A118ed6C2D93A66e7a1b3b0d9C7bf6d5e' │
+│ ReserveStrategy-rateStrategyLST    │ '0x14008FE1784d9f102C26117AD157DD714401423E' │
+│ ReserveStrategy-rateStrategyBTC    │ '0xC94A741dDBe156308D3Fb85B82CebeE44dbF64b1' │
+│ ReserveStrategy-rateStrategyStable │ '0x66DE9FC6BfD8846aCDc31Ad438e30A2dF66446d4' │
+│ USDT0-AToken-Plasma                │ '0x701134eb340fd5fCd5C66EB3546793E84F85b09B' │
+│ USDT0-VariableDebtToken-Plasma     │ '0xc90Fc572EE2Bc1dC0daf4E614222120727DB3b54' │
+│ USDT0-StableDebtToken-Plasma       │ '0xE97Beba74Cacb725fFB38D249682a118391fE128' │
+│ sUSDe-AToken-Plasma                │ '0xD8Fbd5093c9e4DaC2772482D3118A770A02D231e' │
+│ sUSDe-VariableDebtToken-Plasma     │ '0x813Dd3f67835c31d48966184829145a5866b4A7a' │
+│ sUSDe-StableDebtToken-Plasma       │ '0xC5E1A911cD0DbEdFDAE62eDaDc9B5AaDF9Fe25AF' │
+│ USDe-AToken-Plasma                 │ '0xb3c32055431219139364922430734289dfE3433c' │
+│ USDe-VariableDebtToken-Plasma      │ '0xd7bE76d002fD5ee9a0A99062ceD9cAA0Df1E4157' │
+│ USDe-StableDebtToken-Plasma        │ '0xD285dEfBB64fEB7C7807175e48293A4Ea34B8798' │
+│ WETH-AToken-Plasma                 │ '0x3b77Bc04fA1184dbD1F8FD3A79a81605D0fa733E' │
+│ WETH-VariableDebtToken-Plasma      │ '0x03669A121d912252a2C5c46F31F5Ae19A3D674C4' │
+│ WETH-StableDebtToken-Plasma        │ '0xD39B5B63d671574bECC5CD142284180f46A3aDFf' │
+│ weETH-AToken-Plasma                │ '0x848a08CC63ED992505B512eE3eBd86f1aE412a70' │
+│ weETH-VariableDebtToken-Plasma     │ '0x30C863EFfa6E4eC3caa97B5a005a4b23F37c784b' │
+│ weETH-StableDebtToken-Plasma       │ '0x7a6645E22d89C7c531B80415C13D884a2aF3125f' │
+│ WrappedTokenGatewayV3              │ '0x9dC54BFd4BE77D06e97c9E8Cb77860f0e51B57D5' │
+│ WalletBalanceProvider              │ '0xCE805b5459F865a4Ac70797837d2F77c4cB88Efe' │
+│ UiIncentiveDataProviderV3          │ '0xE773B7C2e5157e9F1eFa48E8846E59ED09b831E4' │
+│ UiPoolDataProviderV3               │ '0xd35C772B418A23968557B11E0e7fF7bdEe8F69ae' │
+```
